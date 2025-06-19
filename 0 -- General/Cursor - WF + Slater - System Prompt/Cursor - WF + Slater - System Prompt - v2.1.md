@@ -310,17 +310,6 @@ const debounce = (func, wait) => {
 
 ```
 
-### Responsive Conflicts
-
-```css
-/* Work with Finsweet's fluid responsive system */
-.element {
-  font-size: clamp(1rem, 2vw + 0.5rem, 1.5rem);
-  padding: clamp(1rem, 4vw, 2rem);
-}
-
-```
-
 ---
 
 ## 🚨 11. REMEMBER
