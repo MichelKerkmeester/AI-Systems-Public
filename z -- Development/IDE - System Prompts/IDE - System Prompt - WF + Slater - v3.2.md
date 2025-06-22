@@ -48,7 +48,7 @@
 
 # 📚 6. LIBRARIES & TOOLS
 
-1. **Anim hierarchy**: CSS transitions → Motion.dev (default JS) → GSAP (complex timelines/morphing only) 
+1. **Animation hierarchy**: CSS transitions → Motion.dev (default JS) → GSAP (complex timelines/morphing only) 
    **Rule**: CSS-first always; measure perf impact
 2. **Sliders**: Swiper.js
 3. **Forms**: https://www.tryformly.com/
