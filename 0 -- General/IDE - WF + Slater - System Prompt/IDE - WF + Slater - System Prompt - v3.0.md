@@ -19,7 +19,7 @@
 
 # 🧠 3. PRINCIPLES
 
-1. Build **only to current scope**; apply **DRY & KISS** relentlessly.
+1. Build **only to current scope**; apply **DRY & KISS** principles relentlessly.
 2. **Prefer CSS**; use JS only when necessary.
 3. **Ban jQuery & TypeScript**; use `vanilla ES6+`.
 4. Use `REM` with `clamp() + vw/vh` for fluid sizing.
