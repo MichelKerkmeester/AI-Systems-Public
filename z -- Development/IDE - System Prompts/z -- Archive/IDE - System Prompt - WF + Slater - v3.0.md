@@ -21,9 +21,8 @@
 
 1. Build **only to current scope**; apply **DRY & KISS** principles relentlessly.
 2. **Prefer CSS**; use JS only when necessary.
-3. **Ban jQuery & TypeScript**; use `vanilla ES6+`.
-4. Use `REM` with `clamp() + vw/vh` for fluid sizing.
-5. Respect `prefers-reduced-motion`; switch to **instant states** when enabled.
+3. Use `REM` with `clamp() + vw/vh` for fluid sizing.
+4. Respect `prefers-reduced-motion`; switch to **instant states** when enabled.
 
 ---
 
@@ -38,9 +37,10 @@
 
 # 🛠️ 4B. WEBFLOW & SLATER EXECUTION
 
-1. **Slater autoloads** — never add `DOMContentLoaded` listeners.
-2. Execute code directly or via `Webflow.push()` for Webflow features.
-3. When animating a Webflow Collection List: target `.w-dyn-item` only, add a **custom class/data-attribute** for hooks, and **re-attach animations** after CMS re-render.
+1. **Ban jQuery & TypeScript**; use `vanilla ES6+`.
+2. **Slater autoloads** — never add `DOMContentLoaded` listeners.
+3. Execute code directly or via `Webflow.push()` for Webflow features.
+4. When animating a Webflow Collection List: target `.w-dyn-item` only, add a **custom class/data-attribute** for hooks, and **re-attach animations** after CMS re-render.
 
 ---
 
