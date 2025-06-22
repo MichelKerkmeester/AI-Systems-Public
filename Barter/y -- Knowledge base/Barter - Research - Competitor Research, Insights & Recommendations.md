@@ -1,5 +1,33 @@
 # Barter Competitor Analysis
 
+## Table of Contents
+
+1. [Summary](#summary)
+   - [Barter at a glance](#barter-at-a-glance)
+   - [Fast rival matchup (one‑liner table)](#fast-rival-matchup-one‑liner-table)
+   - [Price tier → Value hook](#price-tier--value-hook)
+   - [Barter leverage points](#barter-leverage-points)
+
+2. [Competitors](#competitors)
+   - [1. The Social Cat](#1-the-social-cat)
+   - [2. Upfluence](#2-upfluence)
+   - [3. Insense](#3-insense)
+   - [4. Modash](#4-modash)
+   - [5. Heepsy](#5-heepsy)
+   - [6. GRIN](#6-grin)
+
+3. [Barter's Competitive Positioning](#barters-competitive-positioning)
+   - [Barter's unique advantages](#barters-unique-advantages)
+   - [Market gaps Barter fills](#market-gaps-barter-fills)
+   - [Competitive threats](#competitive-threats)
+
+4. [Pricing Analysis: Key Insights](#pricing-analysis-key-insights)
+   - [Most Affordable Options](#most-affordable-options)
+   - [Most Expensive Options](#most-expensive-options)
+   - [Contract Flexibility](#contract-flexibility)
+   - [Hidden Costs](#hidden-costs)
+   - [Value Proposition](#value-proposition)
+
 ---
 
 ## Summary
@@ -9,10 +37,10 @@
 | Attribute | Snapshot |
 | --- | --- |
 | **Core offer** | Swipe‑match **barter** network – brands trade products for creator content (zero‑cash baseline) |
-| **Audience** | Indie → mid‑size DTC brands · Gen‑Z & millennial creators (1 k – 150 k followers) |
-| **Pricing** | **€0** trial → **€64 /mo** (month‑to‑month; 3 tiers) |
-| **Hooks** | Product‑only model • “Swipe → Ship → Share” UX • Badges + *Return‑on‑Barter* metric • GDPR‑native (6‑language UI) • Community feed |
-| **2025 traction** | 4 600 + creators · 420 brands · 94 % on‑time content rate |
+| **Audience** | Indie → mid‑size DTC brands · Gen‑Z & millennial creators (1 k – 150 k followers) |
+| **Pricing** | **€0** trial → **€64 /mo** (month‑to‑month; 3 tiers) |
+| **Hooks** | Product‑only model • "Swipe → Ship → Share" UX • Badges + *Return‑on‑Barter* metric • GDPR‑native (6‑language UI) • Community feed |
+| **2025 traction** | 4 600 + creators · 420 brands · 94 % on‑time content rate |
 
 ### Fast rival matchup (one‑liner table)
 
@@ -20,18 +48,18 @@
 | --- | --- | --- | --- |
 | **Social Cat** | Cheap gifting + paid | Cash centric; collab caps | €0 entry; swipe UX; trust badges |
 | **Upfluence** | Enterprise ROI | Annual lock‑in; high cost | Month‑to‑month; 10‑min setup |
-| **Insense** | Fast UGC for ads | 7‑20 % fees; video‑only | Zero fees; any format |
-| **Modash** | 250 M data | DIY outreach | One‑click match; community vibe |
+| **Insense** | Fast UGC for ads | 7‑20 % fees; video‑only | Zero fees; any format |
+| **Modash** | 250 M data | DIY outreach | One‑click match; community vibe |
 | **Heepsy** | Budget search | Scraped data; no refunds | Curated, opt‑in creators |
-| **GRIN** | Shopify OS | €2 k+ cost; overkill | ~3 % cost; no contract |
+| **GRIN** | Shopify OS | €2 k+ cost; overkill | ~3 % cost; no contract |
 
 ### Price tier → Value hook
 
-| Tier | Primary value hook | “Best‑fit” platforms |
+| Tier | Primary value hook | "Best‑fit" platforms |
 | --- | --- | --- |
-| **Free / < €100** | Product‑only, playful | **Barter**, Heepsy Starter |
-| **€100 – €600** | Cheap gifting or UGC | Social Cat · Modash · Insense |
-| **> €2 k** | Full‑funnel ROI | Upfluence · GRIN |
+| **Free / < €100** | Product‑only, playful | **Barter**, Heepsy Starter |
+| **€100 – €600** | Cheap gifting or UGC | Social Cat · Modash · Insense |
+| **> €2 k** | Full‑funnel ROI | Upfluence · GRIN |
 
 ### Barter leverage points
 
