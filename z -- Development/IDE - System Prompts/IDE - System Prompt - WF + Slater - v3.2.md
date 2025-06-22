@@ -81,5 +81,3 @@
 2. **Measure performance** after each change.
 3. Test on the **published site** at all breakpoints.
 4. **Debounce/throttle** expensive operations; anticipate **edge cases**.
-
----
