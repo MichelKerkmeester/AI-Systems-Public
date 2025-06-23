@@ -122,9 +122,9 @@ Show your reasoning."
 - **Guides:** "Introduction + step-by-step process + troubleshooting"
 
 ### Length Guidelines
-- **Optimal:** ~300 words for most prompts
-- **Brief:** 100-150 words for quick tasks
-- **Detailed:** 500-750 words for comprehensive guides
+- **Optimal:** 300-500 words for comprehensive prompts
+- **Brief:** 100-200 words for simple tasks
+- **Detailed:** 500-750 words for complex multi-step tasks
 - **Sections:** 3-5 main points with 2-3 sub-points each
 
 ### Style Calibration
