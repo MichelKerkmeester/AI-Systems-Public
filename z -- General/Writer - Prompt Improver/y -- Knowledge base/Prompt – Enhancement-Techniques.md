@@ -31,7 +31,26 @@
 
 ## 🧠 3. CORE TECHNIQUES
 
-### Chain-of-Thought (CoT)
+### 🟢 Basic Techniques (Use First)
+
+**Clear Instructions**
+- Number your steps
+- Use simple, direct language
+- Specify output format
+
+**Role Definition**
+```
+"You are a [specific role] with expertise in [domain]."
+```
+
+**Task Clarity**
+```
+"Your task is to [specific action] for [purpose]."
+```
+
+### 🟡 Intermediate Techniques (Add When Needed)
+
+**Chain-of-Thought (CoT)**
 ```
 "Think through this step-by-step:
 1. First, analyze [X]
@@ -40,35 +59,49 @@
 Show your reasoning process."
 ```
 
-### Structure & Clarity
+**Structure & Clarity**
 - Use delimiters: `"""` for examples, `---` for sections
 - Include 1-3 examples when helpful
-- Number complex instructions
 - Front-load critical information
 
-### Advanced Techniques
-- **Meta-cognition:** "Before answering, consider..."
-- **Self-validation:** "Verify your response by..."
-- **Progressive disclosure:** "Provide answer in 3 levels: summary, explanation, detailed analysis"
-- **Divergent/convergent:** "Generate 5 ideas, then select the best"
+**Output Specifications**
+- "Format as [structure]"
+- "Length: [word/item count]"
+- "Style: [tone description]"
+
+### 🔴 Advanced Techniques (For Complex Prompts Only)
+
+**Meta-cognition**
+- "Before answering, consider what assumptions you're making"
+- "Identify any ambiguities in the request"
+
+**Self-validation**
+- "After completing, verify your response meets all requirements"
+- "Check your work for accuracy and completeness"
+
+**Progressive disclosure**
+- "Provide answer in 3 levels: summary, explanation, detailed analysis"
+
+**Divergent/convergent thinking**
+- "Generate 5 different approaches, then select and develop the best one"
 
 ---
 
 ## 📊 4. OUTPUT SPECIFICATIONS
 
-### Format
+### Format Options
 - "Numbered list with explanations"
 - "Table with columns [X, Y, Z]"
 - "Executive summary + detailed sections"
 - "Markdown with headers and bullets"
 
-### Length
+### Length Guidelines
 - Word count: "~500 words"
 - Items: "exactly 7"
 - Sections: "3 main, 2-3 sub each"
 - Read time: "5-minute read"
 
-### Style
+### Style Options
 - "Professional but conversational"
 - "Technical yet accessible"
 - "Academic with practical examples"
