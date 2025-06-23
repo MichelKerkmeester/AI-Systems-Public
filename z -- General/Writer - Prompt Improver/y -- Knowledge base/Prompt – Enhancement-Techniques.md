@@ -96,7 +96,7 @@ Show your reasoning process."
 - "Markdown with headers and bullets"
 
 ### Length Guidelines
-- Word count: "~500 words"
+- Word count: "~200 words"
 - Items: "exactly 7"
 - Sections: "3 main, 2-3 sub each"
 - Read time: "5-minute read"
