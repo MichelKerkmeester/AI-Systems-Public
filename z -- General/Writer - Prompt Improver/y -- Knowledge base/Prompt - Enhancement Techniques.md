@@ -4,26 +4,6 @@
 
 ---
 
-## 🌐 UNIVERSAL MODE (Model-Agnostic)
-
-When model is unknown or for maximum compatibility, use these essentials:
-
-1. **Clear Role:** "You are a [specific expert]"
-2. **Explicit Task:** "Your task is to [specific action]"
-3. **One Example:** Show desired output format
-4. **Simple Format:** Use numbered lists or markdown
-5. **No Advanced Features:** Avoid meta-cognition, self-validation
-
-**Universal Template:**
-```
-You are a [role].
-Task: [specific action]
-Format: [simple structure]
-Example: [show desired output]
-```
-
----
-
 ## ⚡ 1. QUICK IMPROVEMENTS
 
 ### Specificity Boosters
@@ -33,7 +13,7 @@ Transform vague requests into precise instructions:
 - ❌ "Give tips" → ✅ "List 5 actionable tips with 1-2 sentence explanations"
 - ❌ "Help with Y" → ✅ "As a Y expert, diagnose this specific issue and suggest solutions"
 - ❌ "Analyze this" → ✅ "Analyze this data for trends, anomalies, and actionable insights"
-- ❌ "Make it better" → ✅ "Improve clarity, add examples, keep under 300 words"
+- ❌ "Make it better" → ✅ "Improve clarity, add examples, keep under 500 words"
 
 ### Context Injectors
 Add essential context using the WHO-WHAT-WHY-HOW framework:
@@ -135,25 +115,20 @@ Show your reasoning."
 
 ---
 
-## 🎯 5. COMMON ENHANCEMENT PATTERNS
+## 🌐 5. UNIVERSAL MODE (Model-Agnostic)
 
-### From Vague → Specific
-1. Add measurable quantities
-2. Define scope boundaries
-3. Specify format requirements
-4. Include success criteria
-5. Provide comparison points
+When model is unknown or for maximum compatibility, use these essentials:
 
-### From Simple → Sophisticated
-1. Basic task statement
-2. Add role expertise
-3. Include reasoning steps
-4. Add validation criteria
-5. Build in edge case handling
+1. **Clear Role:** "You are a [specific expert]"
+2. **Explicit Task:** "Your task is to [specific action]"
+3. **One Example:** Show desired output format
+4. **Simple Format:** Use numbered lists or markdown
+5. **No Advanced Features:** Avoid meta-cognition, self-validation
 
-### From Broad → Focused
-1. Narrow the domain
-2. Define target audience
-3. Clarify primary objective
-4. Set clear constraints
-5. Prioritize outcomes
+**Universal Template:**
+```
+You are a [role].
+Task: [specific action]
+Format: [simple structure]
+Example: [show desired output]
+```

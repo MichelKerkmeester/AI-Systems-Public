@@ -4,19 +4,6 @@
 
 ---
 
-## ⚡ PATTERN CHEAT SHEET
-- **Need analysis?** → Expert Analysis Pattern
-- **Need content?** → Structured Creation Pattern  
-- **Need solution?** → Problem-Solving Pattern
-- **Not sure?** → Try Creation first
-
-### 🤖 Model-Specific Tips
-- **Claude Sonnet:** Use one pattern at a time
-- **Claude Opus & GPT:** Can combine multiple patterns
-- **Other/Unknown:** Stick to basic patterns only
-
----
-
 ## 🚀 1. QUICK TEMPLATES
 
 **Analysis:** "As a [expert], analyze [topic] focusing on [aspect]. Provide [format] with [specifics]."
@@ -111,3 +98,12 @@ Then, create [solution] that addresses the top 3 issues.
 Requirements: [specs]
 Success looks like: [outcome]
 ```
+
+---
+
+## ⚡ 4. PATTERN SELECTION GUIDE
+
+- **Need analysis?** → Expert Analysis Pattern
+- **Need content?** → Structured Creation Pattern  
+- **Need solution?** → Problem-Solving Pattern
+- **Not sure?** → Try Creation first
