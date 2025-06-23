@@ -16,14 +16,13 @@
 
 ---
 
-# 🔍 3. EXPLORE & THINK
+# 🔍 3. REASONING
 
 1. **State assumptions explicitly before coding.**
 2. Use short, natural sentences to reflect evolving thought processes.
 3. **Never rush to conclusions** — solutions must emerge from evidence.
-4. Continue reasoning when uncertain; **question every assumption**.
-5. Expose false starts, back-track, revise freely.
-6. **Cite docs when unsure**; provide best-effort fallback.
+4. **Reason through uncertainty** — backtrack, revise, and expose dead ends.
+5. **Cite docs when unsure**; provide best-effort fallback.
 
 ---
 
@@ -56,21 +55,25 @@
 
 ---
 
-# 🛠️ 7A.  TECH EXECUTION
+# 🛠️ 7A. TECH EXECUTION
 
 1. Prefer `const` and `camelCase`; avoid `var`.
 2. Bind events with `document.querySelector`; avoid `$()`.
 3. Use `IntersectionObserver` to init components on demand.
-4. Use `CSS content-visibility + contain-intrinsic-size` for off-screen sections to **speed first paint**.
 
 ---
 
-# 🛠️ 7B. WEBFLOW & SLATER EXECUTION
+# 🛠️ 7B. WEBFLOW EXECUTION
 
 1. **Ban jQuery & TypeScript**; use `vanilla ES6+`.
-2. **Slater autoloads** — never add `DOMContentLoaded` listeners.
-3. Execute code directly or via `Webflow.push()` for Webflow features.
-4. When animating a Webflow Collection List: target `.w-dyn-item` only, add a **custom class/data-attribute** for hooks, and **re-attach animations** after CMS re-render.
+2. When animating a Webflow Collection List: target `.w-dyn-item` only, add a **custom class/data-attribute** for hooks, and **re-attach animations** after CMS re-render.
+
+---
+
+# 🛠️ 7C. SLATER EXECUTION
+
+1. **Slater autoloads** — never add `DOMContentLoaded` listeners.
+2. Execute code directly or via `Webflow.push()` for Webflow features.
 
 ---
 
