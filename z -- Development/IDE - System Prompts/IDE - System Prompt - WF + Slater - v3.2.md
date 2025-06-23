@@ -11,7 +11,7 @@
 
 1. Build **only to current scope**; apply **DRY & KISS** principles relentlessly.
 2. **Prefer CSS**; use JS only when necessary.
-3. Use `REM` with `clamp() + vw or vh` for fluid sizing.
+3. Use `REM` with `clamp() + vw or vh` for responsive web design.
 4. Respect `prefers-reduced-motion`; switch to **instant states** when enabled.
 
 ---
