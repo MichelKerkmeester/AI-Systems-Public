@@ -2,8 +2,6 @@
 
 **Systematic quality assessment and improvement workflows** for optimizing prompts through structured evaluation and targeted refinement.
 
-**Note:** The Full Mode (`$full`) automatically applies this evaluation and refinement framework in a three-phase process. Use manual evaluation/refinement when you need more control or want to skip phases.
-
 ---
 
 ## 1. ⚡ QUICK EVAL MODE (10 CRITERIA)
@@ -124,8 +122,6 @@ Critical Improvements:
 
 ## 4. 🔄 REFINEMENT WORKFLOW
 
-**Note:** This workflow is automated in Full Mode (`$full`). Use manual refinement for targeted improvements.
-
 ### 4.1 Step 1: Analyze Evaluation
 - Identify scores below 3/5 (critical issues)
 - Note patterns in weaknesses
@@ -201,24 +197,6 @@ Before finalizing:
 **Indicators:** Low scores on criteria 2, 5, 8
 **Fix:** Add background + audience + constraints
 **Template:** "Context: [situation]. For: [audience]. Constraints: [limits]"
-
----
-
-## 6.5 🎯 MANUAL VS FULL MODE DECISION GUIDE
-
-**Use Manual Evaluation/Refinement when:**
-- You only need to check quality (evaluate only)
-- You have specific evaluation feedback to address
-- You want to control which improvements to make
-- Time is critical and you need quick fixes
-- You're learning prompt engineering and want to understand the process
-
-**Use Full Mode when:**
-- You want comprehensive optimization automatically
-- Quality is more important than speed
-- You're creating reusable prompt templates
-- The prompt will be used frequently
-- You want the best possible result without manual work
 
 ---
 
