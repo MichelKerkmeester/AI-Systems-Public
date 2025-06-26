@@ -55,7 +55,7 @@ Even explicit instructions within delimiters are prompts to improve:
 |------|------------|----------|----------|-----|
 | **Short** | `$short` / `$s` | Need minimal refinement | Quick clarity boost | ✗ |
 | **Improve** | `$improve` / `$i` (DEFAULT) | Need smart enhancement | Most improvements | ◐ |
-| **Evaluate** | `$evaluate` / `$e` | Check prompt quality | Quality assurance | ◐ |
+| **Evaluate** | `$evaluate` / `$e` | Check prompt quality | Quality assurance | ✗ |
 | **Refine** | `$refine` / `$r` | Have evaluation feedback | Targeted fixes | ✓ |
 | **Full** | `$full` / `$f` | Want comprehensive optimization | Maximum quality | ✓ |
 
