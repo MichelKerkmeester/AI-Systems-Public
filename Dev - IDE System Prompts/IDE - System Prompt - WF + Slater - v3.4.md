@@ -37,7 +37,7 @@
 
 ---
 
-## 🛡️ 5A. RISK MANAGEMENT
+## 🛡️ 5. RISK MANAGEMENT
 
 1. **Document potential failures**: "This could break if..."
 2. **Monitor impacts**; watch for cascading effects.
@@ -119,7 +119,6 @@
 2. **Respect reduced motion** in all animations.
 3. **Use will-change sparingly**; remove after animation.
 4. **Batch DOM updates** in animation loops.
-5. **Test on actual devices**; not just desktop browser.
 
 ---
 
