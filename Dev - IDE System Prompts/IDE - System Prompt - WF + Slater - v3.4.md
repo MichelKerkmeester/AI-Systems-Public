@@ -94,9 +94,11 @@
 
 ## 🛠️ 9A. TECH EXECUTION
 
-1. Prefer `const` and `camelCase`; avoid `var`.
-2. Bind events with `document.querySelector`; avoid `$()`.
-3. Use `IntersectionObserver` to init components on demand.
+1. **Bind events** with `document.querySelector`; avoid `$()`.
+3. **Start with CSS transitions**; escalate only if needed.
+4. **Respect reduced motion** in all animations.
+3. **Use will-change sparingly**; remove after animation.
+4. **Batch DOM updates** in animation loops.
 
 ---
 
@@ -110,15 +112,6 @@
 
 1. **Slater autoloads** — never add `DOMContentLoaded` listeners.
 2. Execute code directly or via `Webflow.push()` for Webflow features.
-
----
-
-## 🛠️ 9D. ANIMATION EXECUTION
-
-1. **Start with CSS transitions**; escalate only if needed.
-2. **Respect reduced motion** in all animations.
-3. **Use will-change sparingly**; remove after animation.
-4. **Batch DOM updates** in animation loops.
 
 ---
 
