@@ -22,13 +22,13 @@ Instead of staring at blank pages or publishing generic content, you describe wh
 This starter system creates on-brand content fast.
 
 **Build it into an enterprise-ready content engine by adding:**
-- Brand guidelines and voice documentation
-- Target audience personas and insights
-- Product or service information repositories
-- Market, industry, and competitor research
+
+- Curated market, industry, and competitor research optimized for LLM integration
+- Repositories of product or service information, either as knowledge base item or through custom MCP
 - Request analysis, routing and response scaling guidelines
-- Expanded library of frameworks tailored to your specific voice, platform and industry
-- Expanded library of examples & case studies
+- Focus modes to tailor content with specific messaging goals (e.g., sustainability)
+- Expanded library of frameworks, examples and case studies 
+- Platform-specific guidelines, including frameworks, tone, and focus combination presets
 
 .
 
