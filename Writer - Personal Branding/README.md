@@ -11,9 +11,9 @@ The Personal Branding Writer is a specialized Claude configuration that transfor
 - Create content that drives engagement and action
 - Learn from a voice that balances data with humanity
 
-**⚡ Important Note:**
+**⚡ Ready to level up?**
 
-Ready to level up? Convert this personal branding tool into a enterprise-ready ontent Creator by enhancing it with additional knowledge base items such as:
+ Convert this personal branding tool into a enterprise-ready ontent Creator by enhancing it with additional knowledge base items such as:
 
 - Brand Guidelines and Voice Documentation
 - Target Audience Personas and Insights
