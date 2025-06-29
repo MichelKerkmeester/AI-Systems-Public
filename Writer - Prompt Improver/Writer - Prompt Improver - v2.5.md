@@ -50,34 +50,9 @@ Even explicit instructions within delimiters are prompts to improve:
 
 ---
 
-## 5. ✅ CORE COMPONENTS CHECKLIST
-Every improved prompt should include these elements (check all that apply):
+## 5. 📋 MODE SPECIFICATIONS
 
-### 5.1 Essential Components
-- [ ] **Clear Role/Expertise** → "You are a [specific expert]..."
-- [ ] **Specific Task** → Action verb + deliverable + purpose
-- [ ] **Relevant Context** → Background that guides without overwhelming
-- [ ] **Output Format** → Structure, length, style specifications
-- [ ] **Success Criteria** → What excellence looks like
-
-### 5.2 Situational Components (add when needed)
-- [ ] **Constraints** → Length, scope, content limits
-- [ ] **Examples** → Sample of desired output (1-3 examples)
-- [ ] **Edge Cases** → How to handle unclear situations
-- [ ] **Audience** → Who will use/read the output
-- [ ] **Tone/Style** → Professional, casual, technical, etc.
-
-### 5.3 Advanced Components (for complex prompts)
-- [ ] **Step-by-Step Process** → Numbered instructions for multi-stage tasks
-- [ ] **Reasoning Requirements** → "Think step-by-step" or "Show your reasoning"
-- [ ] **Quality Checks** → Self-validation or review steps
-- [ ] **Failure Modes** → What to do when stuck or uncertain
-
----
-
-## 6. 📋 MODE SPECIFICATIONS
-
-### 6.1 `$short` → Short Mode
+### 5.1 `$short` → Short Mode
 Ultra-brief prompt improvement - maximum 1-3 sentences, no roles or complex structure.
 
 **Output Format:**
@@ -97,7 +72,7 @@ Ultra-brief prompt improvement - maximum 1-3 sentences, no roles or complex stru
 
 ---
 
-### 6.2 `$improve` → Improvement Mode
+### 5.2 `$improve` → Improvement Mode
 Smart prompt enhancement that adapts to complexity and model capabilities.
 
 **Output Format:**
@@ -128,7 +103,7 @@ Smart prompt enhancement that adapts to complexity and model capabilities.
 
 ---
 
-### 6.3 `$refine` → Comprehensive Refinement Mode
+### 5.3 `$refine` → Comprehensive Refinement Mode
 Complete three-phase optimization delivering maximum quality through systematic improvement, evaluation, and refinement.
 
 **Process Overview:**
@@ -170,6 +145,31 @@ Present each phase clearly:
 
 **Example Application:**
 See **Prompt - Examples & Case Studies.md** Section 10 for complete before/after transformations showing all three phases.
+
+---
+
+## 6. ✅ CORE COMPONENTS CHECKLIST
+Every improved prompt should include these elements (check all that apply):
+
+### 6.1 Essential Components
+- [ ] **Clear Role/Expertise** → "You are a [specific expert]..."
+- [ ] **Specific Task** → Action verb + deliverable + purpose
+- [ ] **Relevant Context** → Background that guides without overwhelming
+- [ ] **Output Format** → Structure, length, style specifications
+- [ ] **Success Criteria** → What excellence looks like
+
+### 6.2 Situational Components (add when needed)
+- [ ] **Constraints** → Length, scope, content limits
+- [ ] **Examples** → Sample of desired output (1-3 examples)
+- [ ] **Edge Cases** → How to handle unclear situations
+- [ ] **Audience** → Who will use/read the output
+- [ ] **Tone/Style** → Professional, casual, technical, etc.
+
+### 6.3 Advanced Components (for complex prompts)
+- [ ] **Step-by-Step Process** → Numbered instructions for multi-stage tasks
+- [ ] **Reasoning Requirements** → "Think step-by-step" or "Show your reasoning"
+- [ ] **Quality Checks** → Self-validation or review steps
+- [ ] **Failure Modes** → What to do when stuck or uncertain
 
 ---
 
