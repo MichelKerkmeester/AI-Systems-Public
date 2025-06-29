@@ -17,7 +17,7 @@ Instead of staring at blank pages or publishing generic content, you describe wh
 
 .
 
-## ⚡ Ready to scale?
+## ⚡ Ready to level up?
 
 This starter system creates on-brand content fast.
 
