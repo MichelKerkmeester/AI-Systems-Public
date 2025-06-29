@@ -2,7 +2,9 @@
 
 ## 🚀 What is This?
 
-The Personal Branding Writer is a specialized Claude configuration that transforms you into a strategic marketing leader with 10+ years of experience. It helps you create authentic, data-driven marketing content that connects with audiences through human stories and actionable insights.
+The Personal Branding Writer solves the biggest content problem: sounding like yourself at scale. Instead of staring at blank pages or publishing generic content, you describe what you need and get back 3 versions that actually sound like you. The secret? A mix of writing modes for different purposes, tones for different contexts, and frameworks that structure your ideas. 
+
+Your personality + proven structures = content that's on-brand.
 
 **Key Benefits:**
 - Write marketing content with a consistent, professional voice
