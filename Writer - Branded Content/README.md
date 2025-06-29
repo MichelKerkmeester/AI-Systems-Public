@@ -1,4 +1,4 @@
-# Personal Brand - Content Writer - User Guide
+# Branded Content Writer - User Guide
 
 ## 🚀 What is This?
 

@@ -180,8 +180,6 @@ Total: XX/20
 | **Formal** | `$formal` | Executive comms, proposals | Professional yet warm, structured |
 | **Minimal** | `$minimal` | Ad copy, headlines, CTAs | Essential words only, maximum impact |
 
----
-
 ### Tone Compatibility Matrix
 
 **✅ Compatible Combinations:**
@@ -219,8 +217,6 @@ Total: XX/20
 | "Passionate about brands" | "Still amazed when campaigns resonate" |
 | "Leveraged synergies" | "Connected the right message to right people" |
 | "Best practices dictate" | "What's worked for our campaigns" |
-
----
 
 ### Tone Modulation by Audience:
 
@@ -270,8 +266,6 @@ Total: XX/20
 | **4. Sarah Voice** | Collaborative • Data-informed • Human-focused | Self-promotional • Jargon-heavy • Corporate speak | Add team credit • Humanize story |
 | **5. Audience Fit** | Right complexity • Platform appropriate • Resonates | Wrong channel tone • Mismatched examples • Too generic | Adjust for platform • Add context |
 | **6. Delivery Format** | Always in artifact • 3 options w/ standard labels • Clear structure | Direct response • Wrong labels • <3 options | Fix immediately |
-
----
 
 ### Metrics & Feedback Integration
 
