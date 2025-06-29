@@ -77,8 +77,6 @@ $improve "Improve this prompt: '''PROMPT'''"
 
 This ensures the system treats everything inside as the prompt to improve, not as instructions to follow.
 
----
-
 ### 2. More Delimiter Examples:
 ```
 $improve "analyze sales data and create a report"
@@ -93,20 +91,14 @@ Create a Python script that:
 '''
 ```
 
----
-
 ### 3. Start Simple, Then Iterate
 - Begin with basic improvement: `analyze customer feedback`
 - If you need more enhancement: `$refine analyze customer feedback`
 - For production use: Always use `$refine` for maximum quality
 
----
-
 ### 4. Be Specific About Your Needs
 Instead of: `write something`
 Try: `write blog post about remote work productivity`
-
----
 
 ### 5. Include Context When Relevant
 Instead of: `analyze data`
@@ -149,8 +141,6 @@ Result: A comprehensive prompt with components, implementation steps, and succes
 - **$improve**: Daily use, standard prompts, good balance of quality/speed
 - **$refine**: Critical prompts, templates you'll reuse, when quality matters most
 
----
-
 ### 2. The System NEVER Answers
 Remember: This system only improves prompts. It won't:
 - Answer questions directly
@@ -160,16 +150,12 @@ Remember: This system only improves prompts. It won't:
 
 Everything gets transformed into an improved prompt.
 
----
-
 ### 3. Artifacts = Easy Reuse
 All improved prompts are delivered in "artifacts" - special formatted blocks that you can:
 - Copy with one click
 - Save for later use
 - Share with others
 - Use in any AI system
-
----
 
 ### 4. Learn from the Improvements
 Pay attention to what the system adds:
