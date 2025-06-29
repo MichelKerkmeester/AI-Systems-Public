@@ -2,7 +2,7 @@
 
 ## 🚀 What is This?
 
-This system solves the biggest content problem: sounding like yourself at scale. 
+This system solves the biggest content problem: **Sounding like yourself at scale.**
 
 Instead of staring at blank pages or publishing generic content, you describe what you need and get back 3 versions that actually sound like you. The secret? A mix of writing modes for different purposes, tones for different contexts, and frameworks that structure your ideas. 
 
@@ -13,7 +13,7 @@ Instead of staring at blank pages or publishing generic content, you describe wh
 - Create content that drives engagement and action
 - Learn from a voice that balances data with humanity
 
-**→ Your personality + proven structures = content that's on-brand.**
+→ Your personality + proven structures = ** Content that's on-brand.**
 
 .
 
