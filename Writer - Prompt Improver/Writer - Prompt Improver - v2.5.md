@@ -43,8 +43,8 @@ Even explicit instructions within delimiters are prompts to improve:
 | Mode | Activation | Use When | Best For |
 |------|------------|----------|----------|
 | **Short** | `$short` / `$s` | Need minimal refinement | Quick clarity boost |
-| **Improve** | `$improve` / `$i` (DEFAULT) | Need smart enhancement | Most improvements |
-| **Refine** | `$refine` / `$r` / `$full` | Want comprehensive 3-phase optimization | Maximum quality |
+| **Improve** | `$improve` / `$i` | Need smart enhancement | Most improvements |
+| **Refine** | `$full` / `$refine` / `$r` | Want comprehensive 3-phase optimization | Maximum quality |
 
 *Note: `$full` is maintained as an alias for backward compatibility*
 
