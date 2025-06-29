@@ -19,7 +19,10 @@ Instead of staring at blank pages or publishing generic content, you describe wh
 
 ## ⚡ Ready to level up?
 
-Currently this is a basic system designed for quick on-brand content creation. But you can convert this system into a enterprise-ready content writer by enhancing it with additional knowledge base items such as:
+**What you have:** A quick content creator that nails your brand voice.
+**What you can build:** An enterprise-ready content engine. 
+
+You can do this by adding knowledge base items such as:
 
 - Brand Guidelines and Voice Documentation
 - Target Audience Personas and Insights
