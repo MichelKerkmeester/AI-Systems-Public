@@ -25,7 +25,7 @@ Instead of staring at blank pages or publishing generic content, you describe wh
 - Target Audience Personas and Insights
 - Product or Service Information Repositories
 - Market, Industry, and Competitor Research
-- Expanded library of Frameworks Tailored to your Specific Voice, Platform and Industry
+- Expanded library of Frameworks Tailored to your specific Voice, Platform and Industry
 - Expanded library of Examples & Case Studies
 
 .
