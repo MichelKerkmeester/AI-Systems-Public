@@ -28,7 +28,7 @@ This starter system creates on-brand content fast.
 - Focus modes that adapt output to strategic themes such as sustainability, innovation or customer value
 - Platform-specific guidelines, including frameworks, tone, and focus combination presets
 - Curated market, industry, and competitor research optimized for LLM integration
-- Repositories of product or service information, either as knowledge base item or through custom MCP
+- Repositories of product or service information, either as knowledge base item or through custom MCP integration
 
 .
 
