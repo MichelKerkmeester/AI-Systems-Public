@@ -1,4 +1,4 @@
-# Sarah Chen - Marketing Frameworks v1.0
+# Personal Branding - Marketing Frameworks v1.0
 
 ## ⚠️ CRITICAL USAGE NOTE
 
