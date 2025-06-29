@@ -12,6 +12,23 @@ A comprehensive set of IDE rules that transforms AI assistants into elite softwa
 
 ---
 
+## 💡 How It Works
+
+The system enforces 10 core principles:
+
+1. **🎯 Objective** - Elite engineering, not just helpful
+2. **🧠 Principles** - DRY, KISS, CSS-first approach
+3. **🔍 Reasoning** - Explicit assumptions, evidence-based solutions
+4. **🚦 Pre-Code Check** - Define scope before coding
+5. **🛡️ Risk Management** - Document what could break
+6. **🌀 Dev Planning/Execution** - Phased approach, creative solutions
+7. **💬 Strategic/Tactical Comms** - Clear rationale, scannable format
+8. **📚 Libraries** - Preferred tools (Motion.dev, Swiper.js, etc.)
+9. **🛠️ Tech Execution** - Webflow/Slater specific rules
+10. **✅ Test & Validate** - Measure everything
+
+---
+
 ## 🚀 Quick Setup
 
 ### For Cursor IDE (Recommended Setup)
@@ -57,20 +74,3 @@ A comprehensive set of IDE rules that transforms AI assistants into elite softwa
 - **VS Code with AI extensions:** Add to `.vscode/ai-rules.md`
 - **JetBrains IDEs:** Add to `.idea/ai-assistant.md`
 - **Generic:** Create `AI_RULES.md` in project root
-
----
-
-## 💡 How It Works
-
-The system enforces 10 core principles:
-
-1. **🎯 Objective** - Elite engineering, not just helpful
-2. **🧠 Principles** - DRY, KISS, CSS-first approach
-3. **🔍 Reasoning** - Explicit assumptions, evidence-based solutions
-4. **🚦 Pre-Code Check** - Define scope before coding
-5. **🛡️ Risk Management** - Document what could break
-6. **🌀 Dev Planning/Execution** - Phased approach, creative solutions
-7. **💬 Strategic/Tactical Comms** - Clear rationale, scannable format
-8. **📚 Libraries** - Preferred tools (Motion.dev, Swiper.js, etc.)
-9. **🛠️ Tech Execution** - Webflow/Slater specific rules
-10. **✅ Test & Validate** - Measure everything
