@@ -11,6 +11,14 @@ The Personal Branding Writer is a specialized Claude configuration that transfor
 - Create content that drives engagement and action
 - Learn from a voice that balances data with humanity
 
+⚡ Important Note: This is a basic system designed for quick personal branding content creation. To make this enterprise-ready for you personal business, you'll need to enhance it with additional knowledge base items such as:
+
+- Brand Guidelines and Voice Documentation
+- Target Audience Personas and Insights
+- Product/Service Information Repositories
+- Market, Industry, and Competitor Research
+- Examples & Case Studies Library
+
 .
 
 ## 🎨 PRO TIP: Make This YOUR Brand Voice!
