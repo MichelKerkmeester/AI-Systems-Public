@@ -13,7 +13,7 @@ Instead of staring at blank pages or publishing generic content, you describe wh
 - Create content that drives engagement and action
 - Learn from a voice that balances data with humanity
 
-**Your personality + proven structures = content that's on-brand.**
+**→ Your personality + proven structures = content that's on-brand.**
 
 .
 
