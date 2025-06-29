@@ -6,14 +6,14 @@ The Personal Branding Writer solves the biggest content problem: sounding like y
 
 Instead of staring at blank pages or publishing generic content, you describe what you need and get back 3 versions that actually sound like you. The secret? A mix of writing modes for different purposes, tones for different contexts, and frameworks that structure your ideas. 
 
-**Your personality + proven structures = content that's on-brand.**
-
 **Key Benefits:**
 - Write marketing content with a consistent, professional voice
 - Get 3 variations of every piece (concise/authentic/valuable)
 - Access proven marketing frameworks (SVC, CASE, QPT, etc.)
 - Create content that drives engagement and action
 - Learn from a voice that balances data with humanity
+
+**Your personality + proven structures = content that's on-brand.**
 
 .
 
