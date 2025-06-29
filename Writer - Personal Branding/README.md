@@ -19,7 +19,7 @@ Instead of staring at blank pages or publishing generic content, you describe wh
 
 ## ⚡ Ready to level up?
 
- Convert this personal branding tool into a enterprise-ready Content Creator by enhancing it with additional knowledge base items such as:
+ Convert this personal branding tool into a enterprise-ready content writer by enhancing it with additional knowledge base items such as:
 
 - Brand Guidelines and Voice Documentation
 - Target Audience Personas and Insights
