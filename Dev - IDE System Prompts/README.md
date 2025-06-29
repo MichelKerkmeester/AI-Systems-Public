@@ -27,7 +27,7 @@ The system enforces 10 core principles:
 9. **🛠️ Tech Execution** - Webflow/Slater specific rules
 10. **✅ Test & Validate** - Measure everything
 
----
+.
 
 ## 🚀 Quick Setup
 
@@ -54,15 +54,21 @@ The system enforces 10 core principles:
 
 **Alternative:** Create `.cursorrules` file with all rules combined
 
+.
+
 ### For Claude Code (Claude.md)
 1. Create `claude.md` in your project root
 2. Paste the system prompt
 3. Claude Code will reference these rules automatically
 
+.
+
 ### For Gemini CLI (gemini.md)
 1. Create `gemini.md` in your project root
 2. Paste the system prompt
 3. Gemini will use these as context
+
+.
 
 ### For Other IDEs
 - **VS Code with AI extensions:** Add to `.vscode/ai-rules.md`
