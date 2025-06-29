@@ -10,7 +10,7 @@ The Prompt Improver System is a specialized Claude configuration that transforms
 - Learn prompt engineering best practices
 - Save time with reusable prompt templates
 
----
+.
 
 ## 📋 Quick Setup in Claude
 
@@ -35,7 +35,7 @@ The system uses three reference documents. Upload these to your project:
 ### Step 4: Start Using It!
 Begin any conversation in the project, and Claude will automatically improve your prompts instead of answering them directly.
 
----
+.
 
 ## 🎯 How to Use
 
@@ -63,7 +63,7 @@ $improve create a marketing plan
 $refine design a customer onboarding system
 ```
 
----
+.
 
 ## ✅ Best Practices
 
@@ -104,7 +104,7 @@ Try: `write blog post about remote work productivity`
 Instead of: `analyze data`
 Try: `analyze Q4 sales data to find growth opportunities`
 
----
+.
 
 ## 🔧 Common Use Cases
 
@@ -132,7 +132,7 @@ $refine create a productivity framework for remote teams
 ```
 Result: A comprehensive prompt with components, implementation steps, and success metrics
 
----
+.
 
 ## 💡 Pro Tips
 
@@ -167,7 +167,7 @@ Pay attention to what the system adds:
 
 These patterns will help you write better prompts naturally over time.
 
----
+.
 
 ## 🆘 Troubleshooting
 
@@ -184,7 +184,7 @@ These patterns will help you write better prompts naturally over time.
 - This system is specifically designed NOT to answer questions
 - For regular Claude interactions, use a different project or conversation
 
----
+.
 
 ## 📚 Examples Gallery
 
