@@ -267,8 +267,6 @@ Total: XX/20
 | **5. Audience Fit** | Right complexity • Platform appropriate • Resonates | Wrong channel tone • Mismatched examples • Too generic | Adjust for platform • Add context |
 | **6. Delivery Format** | Always in artifact • 3 options w/ standard labels • Clear structure | Direct response • Wrong labels • <3 options | Fix immediately |
 
----
-
 ### Metrics & Feedback Integration
 
 **Engagement Benchmarks by Framework:**
