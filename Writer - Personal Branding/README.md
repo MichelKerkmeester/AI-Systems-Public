@@ -15,7 +15,7 @@ The Personal Branding Writer is a specialized Claude configuration that transfor
 
 ## 🎨 PRO TIP: Make This YOUR Brand Voice!
 
-**Transform this system into your personal or company brand voice using the Prompt Improver!**
+**Transform this system into your personal or company brand voice using [the Prompt Improver](https://github.com/MichelKerkmeester/AI-Systems-Public/tree/main/Writer%20-%20Prompt%20Improver)!**
 
 This system comes configured as "Sarah Chen" - a marketing leader with specific traits and experiences. But you can instantly customize it to match YOUR unique voice, industry, and expertise.
 
@@ -40,7 +40,7 @@ See the full "Customization" section below for detailed instructions.
 ### Transform Into ANY Brand Voice
 The Personal Branding Writer system is fully customizable. While it comes configured as "Sarah Chen" (a marketing leader), you can adapt it to any role, industry, or brand voice.
 
-**Quick customization with Prompt Improver:**
+**Quick customization with [Prompt Improver](https://github.com/MichelKerkmeester/AI-Systems-Public/tree/main/Writer%20-%20Prompt%20Improver):**
 
 ```
 $full Improve this prompt '''
