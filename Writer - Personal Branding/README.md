@@ -20,6 +20,7 @@ Instead of staring at blank pages or publishing generic content, you describe wh
 ## ⚡ Ready to scale?
 
 This starter system creates on-brand content fast.
+
 Build it into an enterprise-ready content engine powerhouse by adding:
 
 - Brand Guidelines and Voice Documentation
