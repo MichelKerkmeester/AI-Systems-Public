@@ -23,10 +23,10 @@ This starter system creates on-brand content fast.
 
 **Build it into an enterprise-ready content engine by adding:**
 
-- Request analysis, routing and response scaling guidelines
 - Expanded library of frameworks, examples and case studies 
 - Focus modes that adapt output to strategic themes such as sustainability, innovation or customer value
 - Platform-specific guidelines, including frameworks, tone, and focus combination presets
+- Request analysis, routing and response scaling guidelines
 - Curated market, industry, and competitor research optimized for LLM integration
 - Repositories of product or service information, either as knowledge base item or through custom MCP integration
 
