@@ -23,10 +23,10 @@ Instead of staring at blank pages or publishing generic content, you describe wh
 
 - Brand Guidelines and Voice Documentation
 - Target Audience Personas and Insights
-- Expanded library of frameworks tailored to your specific voice and industry
-- Examples & Case Studies Library
 - Product or Service Information Repositories
 - Market, Industry, and Competitor Research
+- Expanded library of Frameworks Tailored to your Specific Voice, Platform and Industry
+- Expanded library of Examples & Case Studies
 
 .
 
