@@ -22,6 +22,7 @@ Instead of staring at blank pages or publishing generic content, you describe wh
 This starter system creates on-brand content fast.
 
 **Build it into an enterprise-ready content engine by adding:**
+- Request analysis, routing and response scaling guidleines
 - Brand guidelines and voice documentation
 - Target audience personas and insights
 - Product or service information repositories
