@@ -180,8 +180,6 @@ Total: XX/20
 | **Formal** | `$formal` | Executive comms, proposals | Professional yet warm, structured |
 | **Minimal** | `$minimal` | Ad copy, headlines, CTAs | Essential words only, maximum impact |
 
----
-
 ### Tone Compatibility Matrix
 
 **✅ Compatible Combinations:**
@@ -219,8 +217,6 @@ Total: XX/20
 | "Passionate about brands" | "Still amazed when campaigns resonate" |
 | "Leveraged synergies" | "Connected the right message to right people" |
 | "Best practices dictate" | "What's worked for our campaigns" |
-
----
 
 ### Tone Modulation by Audience:
 
