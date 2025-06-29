@@ -1,8 +1,8 @@
-# Personal Branding Writer - User Guide
+# Personal Brand - Content Writer - User Guide
 
 ## 🚀 What is This?
 
-The Personal Branding Writer solves the biggest content problem: sounding like yourself at scale. 
+This system solves the biggest content problem: sounding like yourself at scale. 
 
 Instead of staring at blank pages or publishing generic content, you describe what you need and get back 3 versions that actually sound like you. The secret? A mix of writing modes for different purposes, tones for different contexts, and frameworks that structure your ideas. 
 
