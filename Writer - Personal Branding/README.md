@@ -19,12 +19,13 @@ Instead of staring at blank pages or publishing generic content, you describe wh
 
 ## ⚡ Ready to level up?
 
-- **What you have:** A quick content creator that nails your brand voice.
+**What you have:** 
+- A quick content creator that nails your brand voice.
 
-- **What you can build:** An enterprise-ready content engine. 
+**What you can build:** 
+- An enterprise-ready content engine. 
 
-You can do this by adding knowledge base items such as:
-
+**You can do this by adding knowledge base items such as:**
 - Brand Guidelines and Voice Documentation
 - Target Audience Personas and Insights
 - Product or Service Information Repositories
