@@ -55,17 +55,6 @@ The system has four modes:
 | **Refine** | `$refine` or `$r` | Maximum quality with 3-phase optimization |
 | **JSON** | `$json` or `$j` | API-ready structured format |
 
-### Examples:
-```
-$short write about AI
-
-$improve create a marketing plan
-
-$refine design a customer onboarding system
-
-$json build a chatbot for customer support
-```
-
 .
 
 ## ✅ Best Practices
