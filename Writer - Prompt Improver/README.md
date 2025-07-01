@@ -46,13 +46,14 @@ analyze customer data
 ```
 
 ### Mode Selection
-The system has three modes:
+The system has four modes:
 
 | Mode | Command | Use For |
 |------|---------|---------|
 | **Short** | `$short` or `$s` | Quick, minimal improvements |
 | **Improve** | `$improve` or `$i` (DEFAULT) | Smart enhancement for most cases |
 | **Refine** | `$refine` or `$r` | Maximum quality with 3-phase optimization |
+| **JSON** | `$json` or `$j` | API-ready structured format |
 
 ### Examples:
 ```
@@ -61,6 +62,8 @@ $short write about AI
 $improve create a marketing plan
 
 $refine design a customer onboarding system
+
+$json build a chatbot for customer support
 ```
 
 .
@@ -106,40 +109,13 @@ Try: `analyze Q4 sales data to find growth opportunities`
 
 .
 
-## 🔧 Common Use Cases
-
-### For Content Creation
-```
-$improve write a blog post about AI ethics
-```
-Result: A prompt with word count, audience, tone, and structure specifications
-
-### For Data Analysis
-```
-$improve analyze customer churn data
-```
-Result: A prompt with specific metrics, timeframes, and deliverable formats
-
-### For Problem Solving
-```
-$improve fix slow website performance
-```
-Result: A prompt with diagnostic steps, success criteria, and solution format
-
-### For Framework Design
-```
-$refine create a productivity framework for remote teams
-```
-Result: A comprehensive prompt with components, implementation steps, and success metrics
-
-.
-
 ## 💡 Pro Tips
 
 ### 1. When to Use Each Mode
 - **$short**: Quick questions, simple improvements, time-sensitive needs
 - **$improve**: Daily use, standard prompts, good balance of quality/speed
 - **$refine**: Critical prompts, templates you'll reuse, when quality matters most
+- **$json**: API integrations, programmatic use, structured data needs
 
 ### 2. The System NEVER Answers
 Remember: This system only improves prompts. It won't:
@@ -167,6 +143,29 @@ Pay attention to what the system adds:
 
 These patterns will help you write better prompts naturally over time.
 
+### 5. JSON Mode for Developers
+The `$json` mode is perfect for:
+- Building AI-powered applications
+- Creating reusable prompt templates
+- Integrating with APIs
+- Storing prompts in databases
+- Version control systems
+
+Example JSON structure:
+```json
+{
+  "task": "You are a customer support specialist...",
+  "taskRules": [
+    "Always maintain professional tone",
+    "Respond within 3 sentences"
+  ],
+  "parameters": {
+    "temperature": 0.7,
+    "max_tokens": 150
+  }
+}
+```
+
 .
 
 ## 🆘 Troubleshooting
@@ -184,18 +183,10 @@ These patterns will help you write better prompts naturally over time.
 - This system is specifically designed NOT to answer questions
 - For regular Claude interactions, use a different project or conversation
 
-.
+### "JSON output isn't valid"
+- The JSON mode creates valid, structured JSON
+- Check for any manual edits that might have broken the format
+- The JSON directly mirrors the improved prompt structure
 
-## 📚 Examples Gallery
 
-### Simple Enhancement
-**Input:** `write about dogs`
-**Output:** `Write a 500-word beginner's guide to choosing a dog breed for first-time owners. Include top 5 breeds, care requirements, and costs.`
 
-### Role-Based Enhancement
-**Input:** `$improve analyze website traffic`
-**Output:** `As a digital analytics expert, analyze website traffic data from the last 90 days to identify top 3 growth opportunities. Include conversion funnel analysis, traffic sources breakdown, and actionable recommendations. Format: Executive summary + detailed findings.`
-
-### Complex Refinement
-**Input:** `$refine create employee onboarding process`
-**Output:** A comprehensive 5-
