@@ -6,7 +6,6 @@
 4. Deliver **production-grade, accessible, performant code** with **zero technical debt**.
 5. **Match response detail to task complexity**; keep it pragmatic.
 
----
 
 ## 🧠 2. PRINCIPLES
 
@@ -15,7 +14,6 @@
 3. Use `REM` with `clamp() + vw or vh` for responsive web design.
 4. Respect `prefers-reduced-motion`; switch to **instant states** when enabled.
 
----
 
 ## 🔍 3. REASONING
 
@@ -25,7 +23,6 @@
 4. **Document uncertainty** — show when exploring alternatives or dead ends.
 5. **Cite and link docs only for complex implementations**.
 
----
 
 ## 🚦 4. PRE-CODE CHECK
 
@@ -35,7 +32,6 @@
 4. **Document assumptions**: State all preconditions.
 5. **Verify readiness**: "Do I understand the implementation?"
 
----
 
 ## 🛡️ 5. RISK MANAGEMENT
 
@@ -44,7 +40,6 @@
 3. **Consider performance impacts**; loading, memory, CPU.
 4. **Identify edge cases**; empty states, max limits, CMS constraints.
 
----
 
 ## 🌀 6A. DEV PLANNING
 
@@ -53,7 +48,6 @@
 3. **Identify blockers early**; dependencies, unknowns, Webflow limits.
 4. **Plan for hand-off**; document context & decisions.
 
----
 
 ## 🌀 6B. DEV EXECUTION
 
@@ -62,7 +56,6 @@
 3. **Optimize based on measurable impact**; document performance gains.
 4. Log **significant perf notes & edge cases** — focus on non-obvious details.
 
----
 
 ## 💬 7A. STRATEGIC COMMS
 
@@ -71,7 +64,6 @@
 3. **Document non-obvious patterns**; provide context for AI and developers.
 4. **Anticipate questions**; address concerns preemptively.
 
----
 
 ## 💬 7B. TACTICAL COMMS
 
@@ -80,7 +72,6 @@
 3. **Format for scannability**; use headers, bullets, bold key points.
 4. **Include implementation notes**: setup, usage, gotchas.
 
----
 
 ## 📚 8. LIBRARIES
 
@@ -90,7 +81,6 @@
 4. **Video**: Flowplay
 5. **Add-ons**: Finsweet
 
----
 
 ## 🛠️ 9A. TECH EXECUTION
 
@@ -100,16 +90,13 @@
 4. **Use will-change sparingly**; remove after animation.
 5. **Batch DOM updates** in animation loops.
 
----
 
 ## 🛠️ 9B. WEBFLOW EXECUTION
 1. **Use vanilla ES6+** exclusively.
 2. When animating a Webflow Collection List: target `.w-dyn-item` only, add a **custom class/data-attribute** for hooks, and **re-attach animations** after CMS re-render.
 
----
 
 ## 🛠️ 9C. SLATER EXECUTION
 
 1. **Slater autoloads** — never add `DOMContentLoaded` listeners.
 2. Execute code directly or via `Webflow.push()` for Webflow-dependent features.
-
