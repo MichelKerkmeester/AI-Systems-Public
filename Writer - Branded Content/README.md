@@ -122,11 +122,12 @@ Write a LinkedIn post about the importance of A/B testing
 ```
 
 ### Mode Selection
-The system has six specialized modes:
+The system has seven specialized modes:
 
 | Mode | Command | Use For | Example Output Style |
 |------|---------|---------|---------------------|
-| **Share** | `$share` or `$s` (DEFAULT) | Knowledge & insights | "Here's what worked..." |
+| **Write** | `$write` or `$w` (DEFAULT) | General content needs | Balanced marketing insights |
+| **Share** | `$share` or `$s` | Knowledge & insights | "Here's what worked..." |
 | **Connect** | `$connect` or `$c` | Building relationships | "Ever notice how we all..." |
 | **Advise** | `$advise` or `$a` | Problem-solving | "Start with these 3 steps..." |
 | **Story** | `$story` or `$st` | Case studies | "The campaign was failing until..." |
@@ -135,6 +136,8 @@ The system has six specialized modes:
 
 ### Mode Examples:
 ```
+$write a post about marketing automation best practices
+
 $share insights from our email campaign
 
 $connect with other marketers about budget constraints
@@ -166,6 +169,8 @@ Combine modes with tones for precise voice control:
 
 ### Tone Combination Examples:
 ```
+$write + $casual a social media post about our new feature
+
 $share + $casual insights about influencer marketing
 
 $advise + $technical on setting up GA4 conversion tracking
@@ -246,41 +251,6 @@ $share + $story for case study insights
 
 $update + $casual for team announcements
 ```
-
-.
-
-## 🔧 Common Use Cases
-
-### Social Media Posts
-```
-Write a LinkedIn post about our 40% increase in organic traffic
-```
-Result: 3 versions optimized for LinkedIn engagement
-
-### Email Campaigns
-```
-$advise + $casual email copy for cart abandonment
-```
-Result: Friendly, helpful email variations with clear CTAs
-
-### Case Studies
-```
-$story about how we helped a B2B client triple their leads
-```
-Result: Narrative-driven case study with data points
-
-### Team Updates
-```
-$update + $fun announcing our marketing team's award win
-```
-Result: Celebratory internal communication options
-
-### Educational Content
-```
-$share + $educational how to calculate customer lifetime value
-```
-Result: Teaching-focused content with examples
-
 .
 
 ## 🎯 Best Practices
@@ -314,7 +284,7 @@ Include these results: 47% CTR increase, $50K saved, 3-month timeline
 ### "It's not writing in Sarah's voice"
 - Make sure you're in the Personal Branding Writer project
 - Check that system instructions are properly saved
-- Try using explicit mode commands: `$share [your request]`
+- Try using explicit mode commands: `$write [your request]`
 
 ### "I want a different voice/personality"
 - Use the Prompt Improver customization method (see top of guide)
@@ -327,57 +297,6 @@ Include these results: 47% CTR increase, $50K saved, 3-month timeline
 - Choose the "most concise" variation
 
 ### "I need more than 3 variations"
-- Make multiple requests with different modes
+- Ask for more variations or make multiple requests with different modes
 - Try: `$share`, then `$connect`, then `$advise` for variety
 - Use tone modifiers for additional variations
-
-.
-
-## 📚 Examples Gallery
-
-### Simple Marketing Insight
-**Input:** `tips for better email subject lines`
-**Output:** 
-- Most concise: "Questions beat statements. Numbers beat words. Curiosity beats clarity."
-- Most authentic: "Our team tested 10K subject lines. Winners? Questions (↑32%), numbers (↑28%), mild confusion (↑24%). 'Professional' lost every time."
-- Most valuable: "Email subject line formula: [Number] + [Benefit] + [Curiosity Gap]. Example: '3 pricing mistakes costing you 40% revenue (fix by Friday).' Test this week?"
-
-### Campaign Story
-**Input:** `$story about our influencer campaign failure`
-**Output:** Full narrative using STORY framework showing the failure, what was learned, and how it led to success
-
-### Technical Guide
-**Input:** `$advise + $technical on setting up conversion tracking`
-**Output:** Step-by-step technical instructions with three levels of detail
-
-### Team Update
-**Input:** `$update + $casual announcing new marketing hire`
-**Output:** Warm, welcoming announcement options that highlight team collaboration
-
-.
-
-## 🚀 Quick Reference Card
-
-### Daily Commands:
-- `$share` = Share insights (default)
-- `$connect` = Build relationships  
-- `$advise` = Give guidance
-- `$story` = Tell campaign stories
-- `$update` = Professional announcements
-- `$improve` = Auto-optimize content
-
-### Tone Modifiers:
-- `+ $casual` = Conversational
-- `+ $technical` = Data-focused
-- `+ $educational` = Teaching mode
-- `+ $fun` = Playful energy
-- `+ $formal` = Professional
-- `+ $minimal` = Ultra-concise
-
-### Power Combos:
-- `$share + $casual` = Friendly insights
-- `$advise + $technical` = Expert guidance
-- `$connect + $educational` = Teaching moments
-- `$story + $minimal` = Quick case studies
-
-Remember: Great marketing content makes the complex feel simple. This system helps you write like you market—with clarity, empathy, and respect for your audience's time.
