@@ -43,7 +43,6 @@ The system enforces 10 core principles:
    - Rule 7: "Communication" (Sections 7A & 7B)
    - Rule 8: "Libraries" (Section 8)
    - Rule 9: "Tech Execution" (Sections 9A, 9B, 9C)
-   - Rule 10: "Test & Validate" (Section 10)
 4. Enable/disable rules based on your current task
 
 **Benefits of separate rules:**
