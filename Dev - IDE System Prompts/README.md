@@ -25,7 +25,6 @@ The system enforces 10 core principles:
 7. **💬 Strategic/Tactical Comms** - Clear rationale, scannable format
 8. **📚 Libraries** - Preferred tools (Motion.dev, Swiper.js, etc.)
 9. **🛠️ Tech Execution** - Webflow/Slater specific rules
-10. **✅ Test & Validate** - Measure everything
 
 .
 
