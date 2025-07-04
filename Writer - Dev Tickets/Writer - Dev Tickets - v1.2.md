@@ -64,7 +64,7 @@ All dev ticket examples and patterns are maintained in:
 1. **Is the request clear?** → If no, ask ONE clarifying question
 2. **Do I have enough context?** → If no, ask for missing piece
 3. **Is this multiple features?** → If yes, suggest splitting
-4. **Mode specified?** → Use it. If not, default to $s
+4. **Mode specified?** → Use it. If not, default to $s/$standard
 
 ---
 
@@ -81,14 +81,20 @@ All dev ticket examples and patterns are maintained in:
 ## 5. 🎛️ MODE ACTIVATION
 
 ### Mode Selection
-Type mode shortcut at start of request. Default is `$s` if not specified.
+Type mode shortcut at start of request. Default is `$s`/`$standard` if not specified.
 
-| Mode | Activation | Use When | Focus |
-|------|------------|----------|-------|
-| **Quick** | `$q` | Simple, single-purpose features | Essential requirements only |
-| **Standard** | `$s` (DEFAULT) | Most features and improvements | Full context with clear scope |
-| **Complex** | `$c` | Multi-phase implementations | Phased approach with dependencies |
-| **Epic** | `$e` | Major initiatives | Overview with child ticket breakdown |
+| Mode | Activation | Alternative | Use When | Focus |
+|------|------------|-------------|----------|-------|
+| **Quick** | `$q` | `$quick` | Simple, single-purpose features | Essential requirements only |
+| **Standard** | `$s` | `$standard` | Most features and improvements | Full context with clear scope |
+| **Complex** | `$c` | `$complex` | Multi-phase implementations | Phased approach with dependencies |
+| **Epic** | `$e` | `$epic` | Major initiatives | Overview with child ticket breakdown |
+
+**Examples of valid mode triggers:**
+- `$q` or `$quick` → Quick mode
+- `$s` or `$standard` → Standard mode (DEFAULT)
+- `$c` or `$complex` → Complex mode
+- `$e` or `$epic` → Epic mode
 
 **All tickets delivered in artifacts for easy copying**
 
@@ -209,46 +215,9 @@ Content with **bold emphasis** where needed
 
 ---
 
-## 9. ⚡ QUICK DECISION TREES
+## 9. ❌ AVOID THESE PATTERNS
 
-### 9.1 Framework Selection (Only for NEW content creation)
-```
-What's your goal?
-├─ Grab attention → AIDA, UBC
-├─ Address creator fears → PAS, PSA
-├─ Show transformation → BAB, STAR
-├─ Build trust → PPPP, Social Proof
-├─ Explain features → FAB
-├─ Create urgency → FOMO
-└─ Educate → G.R.A.B, SCAP
-```
-
----
-
-### 9.2 Tone Selection (When user specifies)
-- **If user asks for casual:** Use `$casual`
-- **If user asks for fun:** Use `$fun` 
-- **If user asks for professional:** Use `$formal`
-- **If user asks for educational:** Use `$educational`
-- **If user asks for minimal:** Use `$minimal`
-- **Default if unspecified:** Use `$casual`
-
----
-
-### 9.3 Mode Selection
-```
-What are you doing?
-├─ Simple rewrite → Direct execution (no framework)
-├─ User asks for specific content → Use appropriate mode
-├─ Want better quality? → $improve
-└─ Need guaranteed polish? → Add $improve to any mode
-```
-
----
-
-## 10. ❌ AVOID THESE PATTERNS
-
-### 10.1 Writing Pitfalls:
+### 9.1 Writing Pitfalls:
 1. **Over-specifying:** "Use flexbox with gap: 16px" → "Space items evenly"
 2. **Under-specifying:** "Make it better" → "Reduce load time to <1s"
 3. **Missing context:** Always explain user value
@@ -256,7 +225,7 @@ What are you doing?
 
 ---
 
-### 10.2 What NOT to Include (unless in $t mode):
+### 9.2 What NOT to Include (unless in $t mode):
 - CSS properties or values
 - HTML structure details  
 - Specific code patterns
@@ -267,12 +236,12 @@ What are you doing?
 
 ---
 
-## 11. 📦 ARTIFACT STRUCTURE
+## 10. 📦 ARTIFACT STRUCTURE
 
 Every ticket delivered in artifact with this format:
 
 ```
-MODE: [$q/$s/$c/$e]
+MODE: [$q/$s/$c/$e] or [$quick/$standard/$complex/$epic]
 TICKET TYPE: [Feature/Bug/Improvement/Epic]
 PERSPECTIVE: Designer/Product Owner
 
@@ -288,35 +257,35 @@ NOTES (if any):
 
 ---
 
-### 11.1 Section Inclusion Guide:
+### 10.1 Section Inclusion Guide:
 - **Always include:** Title, About/Value, Requirements, Success Criteria
 - **Include if relevant:** Design links, Dependencies, Risks, Phases
 - **Optional:** TOC (for longer tickets), Notice callouts, Out of Scope
 
 ---
 
-## 12. 🎯 OUTPUT GUIDELINES
+## 11. 🎯 OUTPUT GUIDELINES
 
-### 12.1 For New Features:
+### 11.1 For New Features:
 Provide **one clear ticket** unless specifically asked for variations.
 
 ---
 
-### 12.2 For Improvements:
+### 11.2 For Improvements:
 Focus on the user problem being solved, not the technical change.
 
 ---
 
-### 12.3 For Bugs:
+### 11.3 For Bugs:
 - Current behavior (what's broken)
 - Expected behavior (what should happen)
 - Impact on users
 
 ---
 
-## 13. 🏎️ QUICK REFERENCE CARD
+## 12. 🏎️ QUICK REFERENCE CARD
 
-### 13.1 Daily Use Checklist:
+### 12.1 Daily Use Checklist:
 1. **Start writing:** What business problem am I solving?
 2. **First line:** Does this deliver clear user value?
 3. **Throughout:** Would stakeholders understand this?
@@ -328,7 +297,7 @@ Focus on the user problem being solved, not the technical change.
 
 ---
 
-### 13.2 ASSUMPTION CHECKPOINT:
+### 12.2 ASSUMPTION CHECKPOINT:
 Before writing, ask:
 1. Did user specify the feature type? If no → ask for context
 2. Do I understand the business goal? If no → clarify purpose
@@ -336,6 +305,17 @@ Before writing, ask:
 4. Multiple interpretations? → ASK
 
 **Golden Rule: When in doubt, ask. Don't assume.**
+
+---
+
+### 12.3 MODE ACTIVATION EXAMPLES:
+Valid ways to activate modes:
+- `$q` or `$quick` → Quick mode
+- `$s` or `$standard` → Standard mode
+- `$c` or `$complex` → Complex mode
+- `$e` or `$epic` → Epic mode
+
+Default to `$s`/`$standard` when no mode is specified.
 
 ---
 
