@@ -12,16 +12,16 @@
 4. [💡 SPECIAL FORMATTING CASES](#4-💡-special-formatting-cases)
    - 4.1 [When to Use Special Elements](#41-when-to-use-special-elements)
    - 4.2 [Figma Link Patterns](#42-figma-link-patterns)
-   - 4.3 [Image Embedding](#43-image-embedding)
-   - 4.4 [Icons in Headers](#44-icons-in-headers)
+   - 4.3 [Image Embedding](#43-◇-image-embedding)
+   - 4.4 [Icons in Headers](#44-◇-icons-in-headers)
 5. [🐛 BUG TICKET EXAMPLE](#5-🐛-bug-ticket-example)
-   - 5.1 [`$s` Bug Ticket](#51-s-bug-ticket)
+   - 5.1 [`$s` Bug Ticket](#51-◇-s-bug-ticket)
 6. [🔧 IMPROVEMENT TICKET EXAMPLE](#6-🔧-improvement-ticket-example)
-   - 6.1 [`$s` Improvement Ticket](#61-s-improvement-ticket)
-   - 6.2 [Arrow Notation](#62-arrow-notation)
-   - 6.3 [Notice Callouts](#63-notice-callouts)
-   - 6.4 [Logic Sections](#64-logic-sections)
-   - 6.5 [Nested Information](#65-nested-information)
+   - 6.1 [`$s` Improvement Ticket](#61-◇-s-improvement-ticket)
+   - 6.2 [Arrow Notation](#62-◇-arrow-notation)
+   - 6.3 [Notice Callouts](#63-◇-notice-callouts)
+   - 6.4 [Logic Sections](#64-◇-logic-sections)
+   - 6.5 [Nested Information](#65-◇-nested-information)
 7. [🎯 GOOD vs VERBOSE EXAMPLES](#7-🎯-good-vs-verbose-examples)
    - 7.1 [Example 1: Column Resizing Feature](#71-example-1-column-resizing-feature)
    - 7.2 [Example 2: User Dashboard](#72-example-2-user-dashboard)
@@ -47,7 +47,7 @@
 
 ---
 
-#### 1.1.1 `$q` Quick Mode
+#### 1.1.1 `$q` Quick Mode (75 words)
 ```markdown
 ### Search Filters
 
@@ -55,19 +55,13 @@
 
 **Business Goal:** Reduce bounce rate on search page
 
----
-
 ## Requirements
 - Filter by category and date
 - Show active filters
 - Clear all filters option
 
----
-
 ## Design
 - [Figma - Search Filters](link)
-
----
 
 ## Success Criteria
 - [ ] Filters work on mobile
@@ -77,7 +71,7 @@
 
 ---
 
-#### 1.1.2 `$s` Standard Mode
+#### 1.1.2 `$s` Standard Mode (150 words)
 ```markdown
 ### Advanced Search Filters
 
@@ -93,20 +87,14 @@
 - Selected filters remain visible and removable
 - Mobile-responsive filter panel
 
----
-
 ## Design
 - [Figma - Search Filters](link)
 - Filters collapse on mobile to save space
-
----
 
 ## Success Criteria
 - [ ] Results update within 300ms of filter change
 - [ ] Users can combine multiple filters
 - [ ] Filter state persists during session
-
----
 
 ## Dependencies
 - Requires: API filter endpoint (#1234)
@@ -115,7 +103,7 @@
 
 ---
 
-### 1.2 `$c` Complex Mode
+### 1.2 `$c` Complex Mode (Comprehensive)
 
 ```markdown
 ### ◇ Search Experience Overhaul
@@ -256,19 +244,13 @@ What would have the most impact for users right now?
 
 **Business Goal:** Reduce support tickets by 40%
 
----
-
 ## Overview
 Enable customers to manage their accounts, view data, and resolve common issues independently through a dedicated portal.
 
----
-
 ## Success Metrics
-- [ ] 40% reduction in support tickets
-- [ ] 80% of users self-serve successfully
-- [ ] Average resolution time < 5 minutes
-
----
+- 40% reduction in support tickets
+- 80% of users self-serve successfully
+- Average resolution time < 5 minutes
 
 ## Child Tickets
 
@@ -287,13 +269,9 @@ Enable customers to manage their accounts, view data, and resolve common issues 
 - [ ] **Automated Troubleshooting** - Common issue resolution
 - [ ] **Ticket Submission** - When self-service isn't enough
 
----
-
 ## Dependencies
-- Requires: SSO infrastructure (#1200)
-- Requires: API rate limiting (#1201)
-
----
+- Requires: SSO infrastructure
+- Requires: API rate limiting
 
 ## Timeline
 12 weeks (4 weeks per phase)
@@ -304,8 +282,6 @@ Enable customers to manage their accounts, view data, and resolve common issues 
 ## 4. 💡 SPECIAL FORMATTING CASES
 
 ### 4.1 When to Use Special Elements
-
-Use special formatting to enhance clarity and create visual hierarchy in your tickets.
 
 ---
 
@@ -332,7 +308,7 @@ Use special formatting to enhance clarity and create visual hierarchy in your ti
 
 ---
 
-### 4.3 Image Embedding
+### 4.3 ◇ Image Embedding
 
 When including screenshots or diagrams:
 ```markdown
@@ -348,16 +324,16 @@ When including screenshots or diagrams:
 
 ---
 
-### 4.4 Icons in Headers
+### 4.4 ◇ Icons in Headers
 
-Icons are optional but when used, maintain consistency throughout the ticket:
+Use icons to create visual hierarchy and quick recognition:
 
 ```markdown
 ### ◇ Feature Component
-## ❖ Requirements
-## → Design
-## ✓ Success Criteria
-## ⊗ Dependencies
+## ❖ Implementation Details
+## → User Flow
+## ✓ Acceptance Criteria
+## ⊗ Out of Scope
 ## ⚠️ Risks & Considerations
 # ⌘ About This Feature
 ```
@@ -366,18 +342,24 @@ Icons are optional but when used, maintain consistency throughout the ticket:
 
 ## 5. 🐛 BUG TICKET EXAMPLE
 
-### 5.1 `$s` Bug Ticket
+### 5.1 ◇ `$s` Bug Ticket
 
 ```markdown
-### Bug: Search Filters Reset on Back Navigation
-
-**User Value:** Keep selected filters when navigating back to search results
-
-**Business Goal:** Reduce user frustration and abandonment (23% drop-off rate)
+### ◇ Bug: Search Filters Reset on Back Navigation
 
 ---
 
-## Current Behavior
+# ⌘ About
+
+Users lose their carefully selected filters when they click back from a result. They must reapply filters each time, causing frustration and abandonment.
+
+**User Impact:** Wastes time reapplying filters repeatedly
+
+**Business Impact:** 23% of users abandon after losing filters
+
+---
+
+## → Current Behavior
 1. User applies multiple filters
 2. User clicks on a search result
 3. User clicks browser back button
@@ -385,14 +367,14 @@ Icons are optional but when used, maintain consistency throughout the ticket:
 
 ---
 
-## Expected Behavior
+## → Expected Behavior
 - Filters persist when navigating back
 - Selected filters remain visible
 - Results show filtered state
 
 ---
 
-## Design
+## → Design
 - [Figma - Expected Filter State](link)
 - [Video - Current Bug Behavior](link)
 
@@ -400,15 +382,15 @@ Icons are optional but when used, maintain consistency throughout the ticket:
 
 ---
 
-## Success Criteria
+## ✓ Success Criteria
 - [ ] 100% of filters persist on back navigation
 - [ ] Filter state restored within 100ms
 - [ ] Works across all major browsers
 
 ---
 
-## Dependencies
-- Requires: Browser history API investigation (#1454)
+## ⊗ Dependencies
+- Requires: Browser history API investigation
 - Blocks: Search analytics accuracy (#1455)
 ```
 
@@ -416,10 +398,16 @@ Icons are optional but when used, maintain consistency throughout the ticket:
 
 ## 6. 🔧 IMPROVEMENT TICKET EXAMPLE  
 
-### 6.1 `$s` Improvement Ticket
+### 6.1 ◇ `$s` Improvement Ticket
 
 ```markdown
-### Improvement: Faster Chart Loading
+### ◇ Improvement: Faster Chart Loading
+
+---
+
+# ⌘ About
+
+Charts take 3-5 seconds to load, causing users to think the page is broken. Competitors load similar charts in under 1 second. We need to match this performance.
 
 **User Value:** See data instantly without waiting
 
@@ -427,21 +415,21 @@ Icons are optional but when used, maintain consistency throughout the ticket:
 
 ---
 
-## Current Performance
+## → Current Performance
 - Initial load: 3-5 seconds
 - Subsequent loads: 2-3 seconds  
 - Mobile: 5-7 seconds
 
 ---
 
-## Target Performance
+## → Target Performance
 - Initial load: <1 second
 - Subsequent loads: <500ms
 - Mobile: <2 seconds
 
 ---
 
-## Design
+## → Design
 - [Figma - Loading States](link)
 - [Figma - Progressive Enhancement](link)
 
@@ -449,7 +437,7 @@ Icons are optional but when used, maintain consistency throughout the ticket:
 
 ---
 
-## Requirements
+## ❖ Requirements
 - Implement progressive data loading
 - Add skeleton states while loading
 - Cache rendered charts for session
@@ -457,22 +445,22 @@ Icons are optional but when used, maintain consistency throughout the ticket:
 
 ---
 
-## Success Criteria
+## ✓ Success Criteria
 - [ ] 90% of charts load in <1 second
 - [ ] 25% reduction in bounce rate
 - [ ] Performance budget: 200KB JS max
 
 ---
 
-## Dependencies
-- Requires: Performance monitoring setup (#1501)
+## ⊗ Dependencies
+- Requires: Performance monitoring setup
 - Requires: CDN configuration (#1502)
 - Blocks: Mobile app integration (#1520)
 ```
 
 ---
 
-### 6.2 Arrow Notation (`→`)
+### 6.2 ◇ Arrow Notation (`→`)
 
 Use for cause-and-effect or user flows:
 ```markdown
@@ -483,7 +471,7 @@ Use for cause-and-effect or user flows:
 
 ---
 
-### 6.3 Notice Callouts
+### 6.3 ◇ Notice Callouts
 
 For critical information that might be missed:
 ```markdown
@@ -495,7 +483,7 @@ For critical information that might be missed:
 
 ---
 
-### 6.4 Logic Sections
+### 6.4 ◇ Logic Sections
 
 When behavior has conditions:
 ```markdown
@@ -507,7 +495,7 @@ When behavior has conditions:
 
 ---
 
-### 6.5 Nested Information
+### 6.5 ◇ Nested Information
 
 For related but detailed specs:
 ```markdown
@@ -529,7 +517,7 @@ For related but detailed specs:
 
 ---
 
-#### 7.1.1 ❌ VERBOSE (Too Much Detail)
+#### 7.1.1 ❌ VERBOSE (Old System)
 
 ```markdown
 ### ◇ Columns | Resize Functionality Implementation
@@ -547,15 +535,21 @@ Our current data table lacks the ability for users to resize columns, which has 
 - Implement minimum and maximum width constraints
 - Handle edge cases for very long content...
 
-[Technical details continue...]
+[Technical details continue for 400+ words...]
 ```
 
 ---
 
-#### 7.1.2 ✅ CONCISE (Focused on Outcomes)
+#### 7.1.2 ✅ CONCISE (New System)
 
 ```markdown
-### Column Resizing
+### ◇ Column Resizing
+
+---
+
+# ⌘ About
+
+Power users waste time scrolling horizontally to see important data. They need to adjust column widths.
 
 **User Value:** See all important data without horizontal scrolling
 
@@ -563,7 +557,7 @@ Our current data table lacks the ability for users to resize columns, which has 
 
 ---
 
-## Design
+## → Design
 
 ### Interactions
 - [Figma - Resize States](link)
@@ -577,7 +571,7 @@ Our current data table lacks the ability for users to resize columns, which has 
 
 ---
 
-## Requirements
+## ❖ Requirements
 - **Hover column edge** → Resize cursor appears
 - **Drag edge** → Column resizes with blue indicator
 - **Double-click edge** → Auto-fit to content
@@ -585,14 +579,14 @@ Our current data table lacks the ability for users to resize columns, which has 
 
 ---
 
-## Success Criteria
+## ✓ Success Criteria
 - [ ] 100% of columns resizable (except locked)
 - [ ] Resize completes in <16ms (60fps)
 - [ ] Settings persist for 30+ days
 
 ---
 
-## Dependencies
+## ⊗ Dependencies
 - Requires: Table component update (#4171)
 - Blocks: Column pinning (#4180)
 ```
@@ -603,7 +597,7 @@ Our current data table lacks the ability for users to resize columns, which has 
 
 ---
 
-#### 7.2.1 ❌ VERBOSE (Too Many Implementation Details)
+#### 7.2.1 ❌ VERBOSE (Old System - 500+ words)
 ```markdown
 ### ◇ Platform | User Dashboard Redesign v2.0
 
@@ -624,7 +618,7 @@ The current dashboard has become cluttered and overwhelming based on user feedba
 
 ---
 
-#### 7.2.2 ✅ CONCISE (Clear and Actionable)
+#### 7.2.2 ✅ CONCISE (New System - 125 words)
 ```markdown
 ### Dashboard Redesign
 
@@ -640,30 +634,32 @@ The current dashboard has become cluttered and overwhelming based on user feedba
 - Drag-and-drop widget arrangement
 - Quick actions for common tasks
 
----
-
 ## Design
 - [Figma - Dashboard v2](link)
 - Default layout prioritizes usage data
-
----
 
 ## Success Criteria
 - [ ] Page loads in under 2 seconds
 - [ ] Users can customize layout
 - [ ] Mobile view shows essential metrics first
 
----
-
 ## Dependencies
 - Requires: Widget API (#890)
+- Blocks: None
 ```
 
 ---
 
-#### 7.2.3 Another Concise Example
+#### 7.2.3 ❌ VERBOSE (Old System - 350+ words)
+Complex technical specifications with implementation details...
+
+---
+
+#### 7.2.4 ✅ CONCISE (New System - 140 words)
 ```markdown
 ### Chart Interaction Updates
+
+---
 
 **User Value:** Understand data trends at a glance with interactive charts
 
@@ -687,8 +683,8 @@ The current dashboard has become cluttered and overwhelming based on user feedba
 
 ## Success Criteria
 - [ ] All charts load in <500ms
-- [ ] Touch-friendly on mobile (44px minimum touch target)
-- [ ] Consistent styling across Statistics, Trends, Churn pages
+- [ ] Touch-friendly on mobile
+- [ ] Consistent styling across Statistics, Trends, Churn
 
 ---
 
@@ -698,7 +694,8 @@ The current dashboard has become cluttered and overwhelming based on user feedba
 
 ---
 
-**Notice:** Always check component headers in Figma for implementation notes
+## Notice
+**Always check component headers in Figma for implementation notes**
 ```
 
 ---
@@ -715,6 +712,8 @@ Instead of one massive ticket, break into phases with clear boundaries:
 
 ```markdown
 ### Feed Personalization System
+
+---
 
 **User Value:** See the most relevant content first, every time
 
@@ -743,7 +742,7 @@ Instead of one massive ticket, break into phases with clear boundaries:
 
 ---
 
-## Success Criteria
+## Success Metrics
 - [ ] 30% increase in session duration
 - [ ] 50% more interactions per session
 - [ ] <100ms added latency
@@ -753,12 +752,6 @@ Instead of one massive ticket, break into phases with clear boundaries:
 ## Design
 - [Figma - Personalized Feed](link)
 - [Algorithm Documentation](link)
-
----
-
-## Dependencies
-- Requires: User tracking infrastructure (#2001)
-- Requires: A/B testing framework (#2002)
 ```
 
 ---
@@ -782,38 +775,20 @@ I need clarification on [specific aspect]:
 
 #### Template:
 ```markdown
-### Bug: [Feature Name]
+### [Bug: Feature Name]
 
-**User Value:** [What users can do when fixed]
+**Impact:** [How many users affected]
 
-**Business Goal:** [Business impact of fixing]
-
----
-
-## Current Behavior
-[What's happening]
-
----
-
-## Expected Behavior
-[What should happen]
-
----
+**Current:** [What's happening]
+**Expected:** [What should happen]
 
 ## Steps to Reproduce
 1. [Step one]
 2. [Step two]
 
----
-
 ## Design
 - [Screenshot of issue]
 - [Expected behavior reference]
-
----
-
-## Success Criteria
-- [ ] [Measurable outcome]
 ```
 
 ---
@@ -822,35 +797,21 @@ I need clarification on [specific aspect]:
 
 #### Template:
 ```markdown
-### Improvement: [Feature] Performance
+### [Improve: Feature Performance]
 
 **User Value:** [Feature] loads 3x faster
 
-**Business Goal:** [Business metric improvement]
-
----
-
-## Current Performance
-- Metric: [current value]
-
----
-
-## Target Performance
-- Metric: [target value]
-
----
+**Current:** Pages take 5+ seconds to load
+**Target:** Under 2 seconds
 
 ## Requirements
 - Optimize [specific area]
 - Maintain current functionality
 - Track performance metrics
 
----
-
 ## Success Criteria
 - [ ] Page load under 2 seconds
 - [ ] No feature regression
-- [ ] Performance monitoring in place
 ```
 
 ---
@@ -863,7 +824,7 @@ I need clarification on [specific aspect]:
 |-----------------|------------|---------|
 | Too technical | Replace with user language | "Implement OAuth2" → "Secure login with Google/Microsoft" |
 | Too vague | Add specific outcomes | "Improve performance" → "Page loads in under 2 seconds" |
-| Too long | Focus on essential sections | Remove background, keep user value and requirements |
+| Too long | Cut middle paragraphs | Keep: Why, What, Success. Cut: Background, Details |
 | Missing why | Add user value statement | Start with "Users can..." or "This helps users..." |
 | Over-specified | Remove implementation details | "Using React hooks" → "Interactive form" |
 | No success criteria | Add measurable outcomes | "It works" → "95% form completion rate" |
@@ -878,11 +839,11 @@ Before delivering any ticket, verify:
 
 - [ ] Has `---` dividers between all sections?
 - [ ] Can be read in under 2 minutes?
-- [ ] Clear user value in first section?
+- [ ] Clear user value in first line?
 - [ ] Requirements are outcomes, not solutions?
 - [ ] Success criteria are measurable?
 - [ ] Links to designs (not descriptions)?
-- [ ] Dependencies noted if any (with ticket numbers)?
+- [ ] Dependencies noted if any?
 - [ ] Proper formatting with **bold** emphasis?
 - [ ] Would a developer know what "done" looks like?
 - [ ] Is this one deployable unit?
@@ -895,18 +856,18 @@ If any answer is "no," revise before delivering.
 
 ---
 
-### 12.1 When request is perfect:
+### 12.1 ◇ When request is perfect:
 "Here's your ticket, ready for sprint planning:"
 [Artifact with ticket]
 
 ---
 
-### 12.2 When clarification needed:
+### 12.2 ◇ When clarification needed:
 "I need one detail to complete this ticket: [specific question]"
 
 ---
 
-### 12.3 When suggesting split:
+### 12.3 ◇ When suggesting split:
 "This sounds like 3 separate features. Would you like:
 1. One epic with child tickets?
 2. Just the highest priority feature?
@@ -914,9 +875,9 @@ If any answer is "no," revise before delivering.
 
 ---
 
-### 12.4 When design missing:
+### 12.4 ◇ When design missing:
 "I've created the ticket structure. Note that we'll need design mockups before development can start:"
-[Artifact with ticket marked "**Needs:** Design mockups"]
+[Artifact with ticket marked "Needs: Design mockups"]
 
 ---
 
