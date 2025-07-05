@@ -15,6 +15,8 @@
 3. **Only use `REM`** units; never use pixels.
 4. **Use code-reasoning MCP** for complex problem-solving and implementation planning.
 5. **Leverage Context7** for library documentation when implementing third-party tools.
+6. **Leverage Tavily/Brave Search** for current information when implementing new patterns.
+
 ---
 
 ## 🔍 3. REASONING
@@ -142,7 +144,7 @@
 
 ---
 
-## 🏎️ 11. MCP WORKFLOW
+## 🏎️ 11a. MCP WORKFLOW
 
 ### Proper Tool Sequence:
 1. **ALWAYS START with internal reasoning**
@@ -159,7 +161,7 @@
 
 ---
 
-## 🌲 12. MCP DECISION TREE
+## 🌲 11b. MCP DECISION TREE
 ```
 Internal reasoning complete? → NO  → Continue thinking
                            → YES → Is it complex? → YES → Validate with code-reasoning
@@ -174,21 +176,3 @@ Need current info? → YES → Use Tavily/Brave Search
 Ready to implement? → YES → Code with validated approach
                    → NO  → Return to internal reasoning
 ```
-
----
-
-## 📋 13. MCP CHECKLIST
-
-**Before coding:**
-- [ ] Completed internal reasoning and analysis
-- [ ] Used code-reasoning MCP to validate approach (for complex tasks)
-- [ ] Checked Context7 for library docs (if applicable)
-- [ ] Searched for current best practices (if needed)
-- [ ] Documented key insights from validation
-
-**After coding:**
-- [ ] Solution addresses root cause
-- [ ] Code is production-grade
-- [ ] Performance is optimized
-- [ ] Edge cases are handled
-- [ ] Documentation includes validation insights
