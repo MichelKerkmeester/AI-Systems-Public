@@ -42,13 +42,11 @@
 2. **Context7 (Library Documentation)**:
    - When implementing with external libraries
    - For API reference and best practices
-   - To verify compatibility and usage patterns
 
 3. **Tavily/Brave Search (Current Information)**:
-   - For latest web development trends
-   - Browser compatibility checks
-   - Performance optimization techniques
-   - Current security best practices
+   - Latest web development techniques and info
+   - Platform-specific best practices
+   - Platform and browser compatibility checks
 
 ---
 
