@@ -163,8 +163,8 @@
 
 ## 🌲 11b. MCP DECISION TREE
 ```
-Internal reasoning complete? → NO  → Continue thinking
-                           → YES → Is it complex? → YES → Validate with code-reasoning
+Internal reasoning complete? | → NO  → Continue thinking
+                            | → YES → Is it complex? → YES → Validate with code-reasoning
                                                  → NO  → Proceed to implementation
 
 Need library docs? → YES → Use Context7
