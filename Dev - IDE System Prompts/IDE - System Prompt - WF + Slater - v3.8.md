@@ -30,7 +30,7 @@
 
 ---
 
-## 🛠️ 4a. MCP - AVAILABLE TOOLS
+## 🛠️ 4a. MCP TOOLS
 1. **Code-Reasoning (Validation Engine)**:
    - Validate complex logic and edge cases
    - Explore alternatives when stuck  
@@ -49,7 +49,7 @@
 
 ---
 
-## 🧠 4b. MCP - PRINCIPLES
+## 🧠 4b. MCP PRINCIPLES
 1. **Think First, Validate Second**: Always start with internal reasoning
 2. **Code-reasoning is enhancement, not replacement** for critical thinking
 3. **Sequential Dependencies**: Internal reasoning → validation → implementation
@@ -58,7 +58,7 @@
 
 ---
 
-## 🌲 4c. MCP - DECISION TREE
+## 🌲 4c. MCP DECISION TREE
 | Category | Trigger/Decision Point | Condition | If YES | If NO | Tools |
 |----------|------------------------|-----------|---------|--------|-------|
 | **Internal Reasoning** | Complete? | Have I fully thought through this? | Check complexity | Continue thinking | - |
