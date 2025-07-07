@@ -30,22 +30,44 @@
 
 ---
 
-## 🧔 4. MCP TOOL USAGE
-
-1. **Code-Reasoning (VALIDATION TOOL)**: 
-   - Use AFTER internal reasoning to validate approach
-   - Verify complex logic and edge cases
-   - Explore alternative implementations when stuck
-   - Document thought evolution and decision rationale
+## 🛠️ 4a. MCP - AVAILABLE TOOLS
+1. **Code-Reasoning (Validation Engine)**:
+   - Validate complex logic and edge cases
+   - Explore alternatives when stuck  
+   - Document decision rationale
+   - NEVER use as primary thinking tool
 
 2. **Context7 (Library Documentation)**:
-   - When implementing with external libraries
-   - For API reference and best practices
+   - External library implementations
+   - API reference and best practices
+   - Integration patterns
 
-3. **Tavily/Brave Search (Current Information)**:
-   - Latest web development techniques and info
+3. **Tavily/Brave Search (Current Intelligence)**:
+   - Latest techniques and compatibility
    - Platform-specific best practices
-   - Platform and browser compatibility checks
+   - Performance benchmarks
+
+---
+
+## 🧠 4b. MCP - PRINCIPLES
+1. **Think First, Validate Second**: Always start with internal reasoning
+2. **Code-reasoning is enhancement, not replacement** for critical thinking
+3. **Sequential Dependencies**: Internal reasoning → validation → implementation
+4. **Complexity Triggers**: Use MCP validation for complex implementations
+5. **Single Source Approach**: Each tool has specific, non-overlapping purposes
+
+---
+
+## 🌲 4c. MCP - DECISION TREE
+| Category | Trigger/Decision Point | Condition | If YES | If NO | Tools |
+|----------|------------------------|-----------|---------|--------|-------|
+| **Internal Reasoning** | Complete? | Have I fully thought through this? | Check complexity | Continue thinking | - |
+| **Complexity Check** | Is it complex? | Multi-step reasoning required? | Use code-reasoning MCP | Proceed to next check | Code-Reasoning |
+| **Library Integration** | External dependencies | Need library docs? | Use Context7 | Proceed to next check | Context7, Tavily/Brave |
+| **Current Best Practices** | Need latest info | Need latest info/best practices? | Use web search | Proceed to next check | Tavily/Brave |
+| **Performance Optimization** | Measurable improvements | Optimization needed? | Search for benchmarks/techniques | Proceed to next check | Tavily/Brave, Code-Reasoning |
+| **Platform Questions** | Webflow/Slater specific | Platform-specific info needed? | Search platform docs | Proceed to implementation | Tavily/Brave, Context7 |
+| **Implementation Ready** | Ready to code? | All checks complete? | Code with validated approach | Return to internal reasoning | - |
 
 ---
 
@@ -141,32 +163,3 @@
 
 1. **Slater autoloads** — never add `DOMContentLoaded` listeners.
 2. Execute code directly or via `Webflow.push()` for Webflow-dependent features.
-
----
-
-## 🏎️ 11a. MCP WORKFLOW
-
-### Proper Tool Sequence:
-1. **ALWAYS START with internal reasoning**
-2. **THEN use code-reasoning MCP** to validate and enhance your approach
-3. **USE Context7** when implementing with external libraries
-4. **SEARCH with Tavily/Brave** for current best practices and compatibility
-
-### Key Principle:
-**Code-reasoning is a VALIDATION and ENHANCEMENT tool, not a replacement for thinking.**
-- Think first, validate second
-- Use it to catch edge cases you might have missed
-- Use it to explore alternatives when stuck
-- Use it to document complex decision rationale
-
----
-
-## 🌲 11b. MCP DECISION TREE
-
-| Decision Point | Condition | If YES | If NO |
-|---|---|---|---|
-| **Internal Reasoning** | Complete? | Check complexity | Continue thinking |
-| **Complexity Check** | Is it complex? | Validate with code-reasoning MCP | Proceed to implementation |
-| **Library Dependencies** | Need library docs? | Use Context7 | Continue |
-| **Current Information** | Need latest info/best practices? | Use Tavily/Brave Search | Continue |
-| **Implementation Ready** | Ready to code? | Code with validated approach | Return to internal reasoning |
