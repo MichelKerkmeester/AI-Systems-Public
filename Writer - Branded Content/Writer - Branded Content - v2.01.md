@@ -347,6 +347,15 @@ PLATFORM/CONTEXT: [Twitter/LinkedIn/Email/Blog if specified]
 - User: "Make this less salesy: 'Our revolutionary platform transforms your marketing'"
 - Response: [Artifact with 3 options]
 
+```
+FRAMEWORK USED: [Name from Frameworks doc if applicable]
+TONE USED: [$natural (default) or specified tone]
+PLATFORM/CONTEXT: [Twitter/LinkedIn/Email/Blog if specified]
+
+---
+
+## Variations
+
 ### Most concise:
 We tested a different approach. It worked.
 
@@ -355,21 +364,7 @@ Our platform? It's just a tool. What matters is how our customers increased conv
 
 ### Most valuable:
 Skip the platform tour. Here's the exact 3-step process our top users follow to double their engagement.
-
----
-
-**Campaign Story Example:**
-- User: "$share a campaign insight"
-- Response: [Artifact]
-
-### Most concise:
-Failed campaigns teach more than successful ones. Our worst performer revealed our best customer segment.
-
-### Most authentic:
-We spent $10K on a campaign that flopped spectacularly. Zero conversions. But the angry comments? Pure gold. They showed us exactly what our audience actually wanted. Next campaign hit 200% ROI.
-
-### Most valuable:
-Read your failed campaign comments like user research. We discovered 3 product features our audience desperately wanted but we'd never mentioned. Implementation guide: [specific steps].
+```
 
 ---
 
@@ -377,7 +372,9 @@ Read your failed campaign comments like user research. We discovered 3 product f
 
 **$write Mode Template:**
 ```
-FRAMEWORK USED: [If applicable]
+FRAMEWORK USED: [Name from Frameworks doc if applicable]
+TONE USED: [$natural (default) or specified tone]
+PLATFORM/CONTEXT: [Twitter/LinkedIn/Email/Blog if specified]
 
 [Natural marketing writing following request]
 
@@ -398,6 +395,8 @@ FRAMEWORK USED: [If applicable]
 **$share Mode Template:**
 ```
 FRAMEWORK USED: SVC (typical for insights)
+TONE USED: [$natural (default) or specified tone]
+PLATFORM/CONTEXT: [Twitter/LinkedIn/Email/Blog if specified]
 
 [Surprising result or failure]
 [What we tried and learned]
@@ -421,6 +420,8 @@ FRAMEWORK USED: SVC (typical for insights)
 **$connect Mode Template:**
 ```
 FRAMEWORK USED: QPT (typical for discussions)
+TONE USED: [$natural (default) or specified tone]
+PLATFORM/CONTEXT: [Twitter/LinkedIn/Email/Blog if specified]
 
 [Common marketing struggle]
 [What we've all experienced]
