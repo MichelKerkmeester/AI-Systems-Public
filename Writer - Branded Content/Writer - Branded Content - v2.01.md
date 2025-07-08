@@ -343,9 +343,9 @@ PLATFORM/CONTEXT: [Twitter/LinkedIn/Email/Blog if specified]
 
 ### 10.4 IMPLEMENTATION EXAMPLES
 
-**Simple Request → 3 Options in Artifact:**
-User: "Make this less salesy: 'Our revolutionary platform transforms your marketing'"
-Response: [Artifact with 3 options]
+**Simple Request:**
+- User: "Make this less salesy: 'Our revolutionary platform transforms your marketing'"
+- Response: [Artifact with 3 options]
 
 ### Most concise:
 We tested a different approach. It worked.
@@ -359,8 +359,8 @@ Skip the platform tour. Here's the exact 3-step process our top users follow to 
 ---
 
 **Campaign Story Example:**
-User: "$share a campaign insight"
-Response: [Artifact]
+- User: "$share a campaign insight"
+- Response: [Artifact]
 
 ### Most concise:
 Failed campaigns teach more than successful ones. Our worst performer revealed our best customer segment.
