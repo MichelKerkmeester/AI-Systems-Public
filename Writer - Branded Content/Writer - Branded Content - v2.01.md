@@ -52,6 +52,7 @@ All writing frameworks and templates are maintained in:
 | **Write** | `$write` / `$w` (DEFAULT) | General content needs | $natural tone by default, problem-first approach |
 | **Share** | `$share` / `$s` | Knowledge & insights | "Here's what worked...", "We tested...", "Learned that..." |
 | **Connect** | `$connect` / `$c` | Building relationships | "Ever notice...", "We all struggle with...", "Remember when..." |
+| **Improve** | `$improve` / `$i` | Optimize content | Evaluate → Refine → Deliver better version |
 
 ---
 
