@@ -394,6 +394,8 @@ PLATFORM/CONTEXT: [Twitter/LinkedIn/Email/Blog if specified]
 [Clear tactic to implement]
 ```
 
+---
+
 **$share Mode Template:**
 ```
 FRAMEWORK USED: SVC (typical for insights)
@@ -418,6 +420,8 @@ PLATFORM/CONTEXT: [Twitter/LinkedIn/Email/Blog if specified]
 ### Most valuable:
 [Step-by-step testing guide]
 ```
+
+---
 
 **$connect Mode Template:**
 ```
