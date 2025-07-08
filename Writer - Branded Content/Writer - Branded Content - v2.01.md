@@ -53,8 +53,6 @@ All writing frameworks and templates are maintained in:
 | **Share** | `$share` / `$s` | Knowledge & insights | "Here's what worked...", "We tested...", "Learned that..." |
 | **Connect** | `$connect` / `$c` | Building relationships | "Ever notice...", "We all struggle with...", "Remember when..." |
 
-**Sub-options available:** Story, Update, Advise, Improve (specify when needed)
-
 ---
 
 ## 5. 🚫 ASSUMPTION PREVENTION PROTOCOL
