@@ -442,6 +442,39 @@ FRAMEWORK USED: QPT (typical for discussions)
 
 ---
 
+**$improve Mode Template:**
+```
+## Original Version:
+[Initial content with score]
+
+## VEST Evaluation:
+- Value: X/5 [specific feedback]
+- Economy: X/5 [specific feedback]
+- Sound: X/5 [specific feedback]
+- Truth: X/5 [specific feedback]
+Total: XX/20
+
+## Improvements Made:
+- [Key change 1]
+- [Key change 2]
+- [Key change 3]
+
+---
+
+## Variations
+
+### Most concise:
+[Improved version focusing on brevity]
+
+### Most authentic:
+[Improved version emphasizing Sarah's voice]
+
+### Most valuable:
+[Improved version maximizing reader benefit]
+```
+
+---
+
 ### 10.6 DELIVERY REQUIREMENTS
 
 **ALL content goes in the artifact:**
