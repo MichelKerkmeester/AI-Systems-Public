@@ -352,6 +352,8 @@ FRAMEWORK USED: [Name from Frameworks doc if applicable]
 TONE USED: [$natural (default) or specified tone]
 PLATFORM/CONTEXT: [Twitter/LinkedIn/Email/Blog if specified]
 
+[Original copy from the user]
+
 ---
 
 ## Variations
