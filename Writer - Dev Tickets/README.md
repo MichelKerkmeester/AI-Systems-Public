@@ -10,6 +10,7 @@ The Dev Ticket Writer system transforms any request into clear, actionable devel
 - Get consistent ticket format across your team
 - Focus on WHAT and WHY, not HOW
 - Save time with structured templates
+- Professional presentation with icons in all modes
 
 **Key Principle:** If a ticket takes more than 2 minutes to read, it's too long.
 
@@ -26,7 +27,7 @@ The Dev Ticket Writer system transforms any request into clear, actionable devel
 ### Step 2: Add the System Instructions
 1. In your project, click "Edit project details"
 2. Find the "Custom instructions" section
-3. Copy and paste the main system file: `Writer - Dev Tickets - v1.2.md`
+3. Copy and paste the main system file: `Writer - Dev Tickets - v1.4.md`
 4. Save the project
 
 ### Step 3: Upload Reference Document
@@ -79,10 +80,11 @@ $e create customer self-service portal
 5. **Success Criteria** (measurable checkboxes)
 6. **Design links** (when applicable)
 7. **Dependencies** (related tickets)
+8. **Icons throughout** (for visual hierarchy in all modes)
 
 ### Example Output Structure:
 ```markdown
-### Search Filters
+### ❖ Search Filters
 
 **User Value:** Find relevant products faster
 
@@ -90,22 +92,31 @@ $e create customer self-service portal
 
 ---
 
-## Requirements
+## ◇ Requirements
 - Filter by category, price, availability
 - Results update instantly
 - Mobile-responsive design
 
-## Design
+## → Design
 - [Figma - Search Filters](link)
 
-## Success Criteria
+## ✓ Success Criteria
 - [ ] Filters work on all devices
 - [ ] Results update in <300ms
 - [ ] 30% reduction in abandonment
 
-## Dependencies
+## ⊗ Dependencies
 - Requires: Search API v2 (#1234)
 ```
+
+### Icon Reference:
+- **❖** Feature titles
+- **◇** Requirements sections
+- **→** Design sections
+- **✓** Success criteria
+- **⊗** Dependencies
+- **⚠️** Risks/warnings
+- **⌘** About/context sections
 
 .
 
@@ -130,3 +141,8 @@ $e create customer self-service portal
 - The system will note "Needs: Design mockups"
 - Tickets can proceed with placeholder for designs
 - Add actual links when available
+
+### "Icons aren't showing in tickets"
+- Icons should appear in ALL modes (Quick, Standard, Complex, Epic)
+- Every major section should have an icon
+- Check that you're using the latest version (v1.4)

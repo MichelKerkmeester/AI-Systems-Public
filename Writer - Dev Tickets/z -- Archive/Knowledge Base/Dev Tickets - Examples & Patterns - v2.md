@@ -49,7 +49,7 @@
 
 #### 1.1.1 `$q` Quick Mode
 ```markdown
-### ❖ Search Filters
+### Search Filters
 
 **User Value:** Find what they need faster
 
@@ -57,19 +57,19 @@
 
 ---
 
-## ◇ Requirements
+## Requirements
 - Filter by category and date
 - Show active filters
 - Clear all filters option
 
 ---
 
-## → Design
+## Design
 - [Figma - Search Filters](link)
 
 ---
 
-## ✓ Success Criteria
+## Success Criteria
 - [ ] Filters work on mobile
 - [ ] Results update instantly
 - [ ] Users can combine filters
@@ -79,7 +79,7 @@
 
 #### 1.1.2 `$s` Standard Mode
 ```markdown
-### ❖ Advanced Search Filters
+### Advanced Search Filters
 
 **User Value:** Find relevant results faster with category and date filters
 
@@ -87,7 +87,7 @@
 
 ---
 
-## ◇ Requirements
+## Requirements
 - User can filter by category, date range, and status
 - Filters update results without page refresh
 - Selected filters remain visible and removable
@@ -95,20 +95,20 @@
 
 ---
 
-## → Design
+## Design
 - [Figma - Search Filters](link)
 - Filters collapse on mobile to save space
 
 ---
 
-## ✓ Success Criteria
+## Success Criteria
 - [ ] Results update within 300ms of filter change
 - [ ] Users can combine multiple filters
 - [ ] Filter state persists during session
 
 ---
 
-## ⊗ Dependencies
+## Dependencies
 - Requires: API filter endpoint (#1234)
 - Blocks: Saved searches feature (#1240)
 ```
@@ -118,7 +118,7 @@
 ### 1.2 `$c` Complex Mode
 
 ```markdown
-### ❖ Search Experience Overhaul
+### ◇ Search Experience Overhaul
 
 ---
 
@@ -152,7 +152,7 @@ Our search is failing users - 67% abandon without finding what they need. Compet
 
 ---
 
-## ◇ Phase 1: Basic Filters (Sprint 1)
+## ❖ Phase 1: Basic Filters (Sprint 1)
 - Category and date filters
 - Mobile-responsive design  
 - Real-time result updates
@@ -160,7 +160,7 @@ Our search is failing users - 67% abandon without finding what they need. Compet
 
 ---
 
-## ◇ Phase 2: Smart Features (Sprint 2)
+## ❖ Phase 2: Smart Features (Sprint 2)
 - Auto-suggestions while typing
 - Popular filter combinations
 - Recent search history
@@ -168,7 +168,7 @@ Our search is failing users - 67% abandon without finding what they need. Compet
 
 ---
 
-## ◇ Phase 3: Personalization (Sprint 3)
+## ❖ Phase 3: Personalization (Sprint 3)
 - Saved filter sets
 - Recommended filters based on behavior
 - Quick filter shortcuts
@@ -250,7 +250,7 @@ What would have the most impact for users right now?
 **Request:** "Customer portal for self-service"
 
 ```markdown
-### ❖ Epic: Customer Self-Service Portal
+### Epic: Customer Self-Service Portal
 
 **User Value:** Customers resolve issues without waiting for support
 
@@ -258,19 +258,19 @@ What would have the most impact for users right now?
 
 ---
 
-## ⌘ Overview
+## Overview
 Enable customers to manage their accounts, view data, and resolve common issues independently through a dedicated portal.
 
 ---
 
-## ✓ Success Metrics
+## Success Metrics
 - [ ] 40% reduction in support tickets
 - [ ] 80% of users self-serve successfully
 - [ ] Average resolution time < 5 minutes
 
 ---
 
-## ◇ Child Tickets
+## Child Tickets
 
 ### Phase 1: Foundation
 - [ ] **Authentication & Access** - Secure login and role management
@@ -289,13 +289,13 @@ Enable customers to manage their accounts, view data, and resolve common issues 
 
 ---
 
-## ⊗ Dependencies
+## Dependencies
 - Requires: SSO infrastructure (#1200)
 - Requires: API rate limiting (#1201)
 
 ---
 
-## 📅 Timeline
+## Timeline
 12 weeks (4 weeks per phase)
 ```
 
@@ -353,8 +353,8 @@ When including screenshots or diagrams:
 Icons are optional but when used, maintain consistency throughout the ticket:
 
 ```markdown
-### ❖ Feature Component
-## ◇ Requirements
+### ◇ Feature Component
+## ❖ Requirements
 ## → Design
 ## ✓ Success Criteria
 ## ⊗ Dependencies
@@ -369,7 +369,7 @@ Icons are optional but when used, maintain consistency throughout the ticket:
 ### 5.1 `$s` Bug Ticket
 
 ```markdown
-### ❖ Bug: Search Filters Reset on Back Navigation
+### Bug: Search Filters Reset on Back Navigation
 
 **User Value:** Keep selected filters when navigating back to search results
 
@@ -377,7 +377,7 @@ Icons are optional but when used, maintain consistency throughout the ticket:
 
 ---
 
-## 🔍 Current Behavior
+## Current Behavior
 1. User applies multiple filters
 2. User clicks on a search result
 3. User clicks browser back button
@@ -385,14 +385,14 @@ Icons are optional but when used, maintain consistency throughout the ticket:
 
 ---
 
-## ✅ Expected Behavior
+## Expected Behavior
 - Filters persist when navigating back
 - Selected filters remain visible
 - Results show filtered state
 
 ---
 
-## → Design
+## Design
 - [Figma - Expected Filter State](link)
 - [Video - Current Bug Behavior](link)
 
@@ -400,14 +400,14 @@ Icons are optional but when used, maintain consistency throughout the ticket:
 
 ---
 
-## ✓ Success Criteria
+## Success Criteria
 - [ ] 100% of filters persist on back navigation
 - [ ] Filter state restored within 100ms
 - [ ] Works across all major browsers
 
 ---
 
-## ⊗ Dependencies
+## Dependencies
 - Requires: Browser history API investigation (#1454)
 - Blocks: Search analytics accuracy (#1455)
 ```
@@ -419,7 +419,7 @@ Icons are optional but when used, maintain consistency throughout the ticket:
 ### 6.1 `$s` Improvement Ticket
 
 ```markdown
-### ❖ Improvement: Faster Chart Loading
+### Improvement: Faster Chart Loading
 
 **User Value:** See data instantly without waiting
 
@@ -427,21 +427,21 @@ Icons are optional but when used, maintain consistency throughout the ticket:
 
 ---
 
-## 📊 Current Performance
+## Current Performance
 - Initial load: 3-5 seconds
 - Subsequent loads: 2-3 seconds  
 - Mobile: 5-7 seconds
 
 ---
 
-## 🎯 Target Performance
+## Target Performance
 - Initial load: <1 second
 - Subsequent loads: <500ms
 - Mobile: <2 seconds
 
 ---
 
-## → Design
+## Design
 - [Figma - Loading States](link)
 - [Figma - Progressive Enhancement](link)
 
@@ -449,7 +449,7 @@ Icons are optional but when used, maintain consistency throughout the ticket:
 
 ---
 
-## ◇ Requirements
+## Requirements
 - Implement progressive data loading
 - Add skeleton states while loading
 - Cache rendered charts for session
@@ -457,14 +457,14 @@ Icons are optional but when used, maintain consistency throughout the ticket:
 
 ---
 
-## ✓ Success Criteria
+## Success Criteria
 - [ ] 90% of charts load in <1 second
 - [ ] 25% reduction in bounce rate
 - [ ] Performance budget: 200KB JS max
 
 ---
 
-## ⊗ Dependencies
+## Dependencies
 - Requires: Performance monitoring setup (#1501)
 - Requires: CDN configuration (#1502)
 - Blocks: Mobile app integration (#1520)
@@ -532,14 +532,14 @@ For related but detailed specs:
 #### 7.1.1 ❌ VERBOSE (Too Much Detail)
 
 ```markdown
-### ❖ Columns | Resize Functionality Implementation
+### ◇ Columns | Resize Functionality Implementation
 
 # ⌘ About
 Our current data table lacks the ability for users to resize columns, which has been a frequent request in user feedback sessions. Based on analytics showing that 73% of power users struggle with fixed column widths when trying to view multiple data points simultaneously, we need to implement a comprehensive column resizing system. This will involve creating new React components, implementing drag handlers, managing state persistence, and ensuring cross-browser compatibility...
 
-# ◇ Implementation
+# ❖ Implementation
 
-## ❖ Resize interaction
+## ◇ Resize interaction
 - **Hovering over the outer right border** of a column → The cursor changes to the **"Resize"** state
 - Implement using ResizeObserver API with proper event handling
 - Add event listeners for mousedown, mousemove, mouseup
@@ -555,7 +555,7 @@ Our current data table lacks the ability for users to resize columns, which has 
 #### 7.1.2 ✅ CONCISE (Focused on Outcomes)
 
 ```markdown
-### ❖ Column Resizing
+### Column Resizing
 
 **User Value:** See all important data without horizontal scrolling
 
@@ -563,7 +563,7 @@ Our current data table lacks the ability for users to resize columns, which has 
 
 ---
 
-## → Design
+## Design
 
 ### Interactions
 - [Figma - Resize States](link)
@@ -577,7 +577,7 @@ Our current data table lacks the ability for users to resize columns, which has 
 
 ---
 
-## ◇ Requirements
+## Requirements
 - **Hover column edge** → Resize cursor appears
 - **Drag edge** → Column resizes with blue indicator
 - **Double-click edge** → Auto-fit to content
@@ -585,14 +585,14 @@ Our current data table lacks the ability for users to resize columns, which has 
 
 ---
 
-## ✓ Success Criteria
+## Success Criteria
 - [ ] 100% of columns resizable (except locked)
 - [ ] Resize completes in <16ms (60fps)
 - [ ] Settings persist for 30+ days
 
 ---
 
-## ⊗ Dependencies
+## Dependencies
 - Requires: Table component update (#4171)
 - Blocks: Column pinning (#4180)
 ```
@@ -605,14 +605,14 @@ Our current data table lacks the ability for users to resize columns, which has 
 
 #### 7.2.1 ❌ VERBOSE (Too Many Implementation Details)
 ```markdown
-### ❖ Platform | User Dashboard Redesign v2.0
+### ◇ Platform | User Dashboard Redesign v2.0
 
 # ⌘ About
 The current dashboard has become cluttered and overwhelming based on user feedback sessions conducted in Q3. With the addition of new features over the past year, the information architecture no longer serves our users' primary needs. Heat mapping studies show users spending excessive time searching for key metrics...
 
-# ◇ Implementation
+# ❖ Implementation
 
-## ❖ Dashboard Layout Grid System
+## ◇ Dashboard Layout Grid System
 ### Grid Specifications:
 - 12-column responsive grid
 - Breakpoints: 320px, 768px, 1024px, 1440px
@@ -626,7 +626,7 @@ The current dashboard has become cluttered and overwhelming based on user feedba
 
 #### 7.2.2 ✅ CONCISE (Clear and Actionable)
 ```markdown
-### ❖ Dashboard Redesign
+### Dashboard Redesign
 
 **User Value:** See most important metrics at a glance
 
@@ -634,7 +634,7 @@ The current dashboard has become cluttered and overwhelming based on user feedba
 
 ---
 
-## ◇ Requirements
+## Requirements
 - Customizable widget layout
 - Key metrics visible above fold
 - Drag-and-drop widget arrangement
@@ -642,20 +642,20 @@ The current dashboard has become cluttered and overwhelming based on user feedba
 
 ---
 
-## → Design
+## Design
 - [Figma - Dashboard v2](link)
 - Default layout prioritizes usage data
 
 ---
 
-## ✓ Success Criteria
+## Success Criteria
 - [ ] Page loads in under 2 seconds
 - [ ] Users can customize layout
 - [ ] Mobile view shows essential metrics first
 
 ---
 
-## ⊗ Dependencies
+## Dependencies
 - Requires: Widget API (#890)
 ```
 
@@ -663,7 +663,7 @@ The current dashboard has become cluttered and overwhelming based on user feedba
 
 #### 7.2.3 Another Concise Example
 ```markdown
-### ❖ Chart Interaction Updates
+### Chart Interaction Updates
 
 **User Value:** Understand data trends at a glance with interactive charts
 
@@ -671,7 +671,7 @@ The current dashboard has become cluttered and overwhelming based on user feedba
 
 ---
 
-## ◇ Requirements
+## Requirements
 - **Donut charts** → Show 1 decimal value (not 2)
 - **Tree maps** → Remove 3rd layer, disable 2nd layer except "Others"
 - **Tooltips** → Display on hover with updated styling
@@ -679,20 +679,20 @@ The current dashboard has become cluttered and overwhelming based on user feedba
 
 ---
 
-## → Design
+## Design
 - [Figma - Data Visualization v2](link)
 - [Component Library](link)
 
 ---
 
-## ✓ Success Criteria
+## Success Criteria
 - [ ] All charts load in <500ms
 - [ ] Touch-friendly on mobile (44px minimum touch target)
 - [ ] Consistent styling across Statistics, Trends, Churn pages
 
 ---
 
-## ⊗ Dependencies
+## Dependencies
 - Requires: Updated color tokens (#4331)
 - Blocks: Dashboard redesign (#4340)
 
@@ -714,7 +714,7 @@ Instead of one massive ticket, break into phases with clear boundaries:
 #### 8.1.1 Phase-Based Ticket Example
 
 ```markdown
-### ❖ Feed Personalization System
+### Feed Personalization System
 
 **User Value:** See the most relevant content first, every time
 
@@ -722,41 +722,41 @@ Instead of one massive ticket, break into phases with clear boundaries:
 
 ---
 
-## ◇ Phase 1: Data Collection (Week 1-2)
+## Phase 1: Data Collection (Week 1-2)
 - Track user interactions with feed items
 - Store preference signals
 - Basic analytics dashboard
 
 ---
 
-## ◇ Phase 2: Algorithm Implementation (Week 3-4)
+## Phase 2: Algorithm Implementation (Week 3-4)
 - Personalization engine based on behavior
 - A/B test framework
 - Fallback to default feed
 
 ---
 
-## ◇ Phase 3: Optimization (Week 5-6)
+## Phase 3: Optimization (Week 5-6)
 - Machine learning improvements
 - Real-time adjustments
 - Performance tuning
 
 ---
 
-## ✓ Success Criteria
+## Success Criteria
 - [ ] 30% increase in session duration
 - [ ] 50% more interactions per session
 - [ ] <100ms added latency
 
 ---
 
-## → Design
+## Design
 - [Figma - Personalized Feed](link)
 - [Algorithm Documentation](link)
 
 ---
 
-## ⊗ Dependencies
+## Dependencies
 - Requires: User tracking infrastructure (#2001)
 - Requires: A/B testing framework (#2002)
 ```
@@ -782,7 +782,7 @@ I need clarification on [specific aspect]:
 
 #### Template:
 ```markdown
-### ❖ Bug: [Feature Name]
+### Bug: [Feature Name]
 
 **User Value:** [What users can do when fixed]
 
@@ -790,29 +790,29 @@ I need clarification on [specific aspect]:
 
 ---
 
-## 🔍 Current Behavior
+## Current Behavior
 [What's happening]
 
 ---
 
-## ✅ Expected Behavior
+## Expected Behavior
 [What should happen]
 
 ---
 
-## 📋 Steps to Reproduce
+## Steps to Reproduce
 1. [Step one]
 2. [Step two]
 
 ---
 
-## → Design
+## Design
 - [Screenshot of issue]
 - [Expected behavior reference]
 
 ---
 
-## ✓ Success Criteria
+## Success Criteria
 - [ ] [Measurable outcome]
 ```
 
@@ -822,7 +822,7 @@ I need clarification on [specific aspect]:
 
 #### Template:
 ```markdown
-### ❖ Improvement: [Feature] Performance
+### Improvement: [Feature] Performance
 
 **User Value:** [Feature] loads 3x faster
 
@@ -830,24 +830,24 @@ I need clarification on [specific aspect]:
 
 ---
 
-## 📊 Current Performance
+## Current Performance
 - Metric: [current value]
 
 ---
 
-## 🎯 Target Performance
+## Target Performance
 - Metric: [target value]
 
 ---
 
-## ◇ Requirements
+## Requirements
 - Optimize [specific area]
 - Maintain current functionality
 - Track performance metrics
 
 ---
 
-## ✓ Success Criteria
+## Success Criteria
 - [ ] Page load under 2 seconds
 - [ ] No feature regression
 - [ ] Performance monitoring in place
