@@ -18,16 +18,6 @@ Instead of struggling with complex AI integrations or writing boilerplate code, 
 
 .
 
-## 🚀 What's New in v4.0
-
-- **🎯 Streamlined for artifacts** - Removed unnecessary web dev complexity
-- **🧪 Test-first approach** - Validate Claude prompts before building
-- **📐 4 specialized modes** - Simple, Chat, Orchestrate, Analyze
-- **🛡️ Safe API patterns** - Handle Claude's JSON quirks gracefully
-- **📚 Complete examples** - Full working apps, not fragments
-
-.
-
 ## 💡 How It Works
 
 The system provides 4 specialized modes for different AI app types:
