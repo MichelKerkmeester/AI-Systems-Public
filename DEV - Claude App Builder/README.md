@@ -1,4 +1,4 @@
-# Claude AI App Builder - Setup Guide
+# Claude AI App Builder - User Guide
 
 ## 🎯 What is This?
 

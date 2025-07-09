@@ -1,4 +1,4 @@
-# IDE System Prompt / Rules - Setup Guide
+# IDE System Prompt / Rules - User Guide
 
 ## 🎯 What is This?
 
