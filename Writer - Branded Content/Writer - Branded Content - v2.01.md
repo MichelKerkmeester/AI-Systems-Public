@@ -352,7 +352,7 @@ FRAMEWORK USED: [Name from Frameworks doc if applicable]
 TONE USED: [$natural (default) or specified tone]
 PLATFORM/CONTEXT: [Twitter/LinkedIn/Email/Blog if specified]
 
-[Original copy from the user]
+[Main content/deliverable]
 
 ---
 
@@ -366,6 +366,33 @@ Our platform? It's just a tool. What matters is how our customers increased conv
 
 ### Most valuable:
 Skip the platform tour. Here's the exact 3-step process our top users follow to double their engagement.
+```
+
+---
+
+**Edit Request:**
+- User: "Make this more urgent: 'Update your records'"
+- Response: [Artifact]
+
+```
+FRAMEWORK USED: [Name from Frameworks doc if applicable]
+TONE USED: [$natural (default) or specified tone]
+PLATFORM/CONTEXT: [Twitter/LinkedIn/Email/Blog if specified]
+
+[Main content/deliverable]
+
+---
+
+## Variations
+
+### Most concise:
+⚡ Records need updating NOW—campaign launches in 24 hours.
+
+### Most authentic:
+Heads up—outdated records killed our last campaign's targeting. Takes 5 minutes to update, saves us from sending irrelevant emails to 10K people.
+
+### Most valuable:
+Update records before tomorrow's send: 1) Export current list, 2) Flag changes, 3) Re-import. Prevents the 30% bounce rate we saw last quarter.
 ```
 
 ---
@@ -453,6 +480,8 @@ PLATFORM/CONTEXT: [Twitter/LinkedIn/Email/Blog if specified]
 ```
 ## Original Version:
 [Initial content with score]
+
+---
 
 ## VEST Evaluation:
 - Value: X/5 [specific feedback]
