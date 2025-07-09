@@ -130,7 +130,7 @@ Which direction works best?"
 
 ---
 
-### 6.4 **`$improve` / `$i`** → Comprehensive Improvement Mode
+### 6.4 **`$improve` / `$i`** → Improvement Mode
 **Process:**
 1. Execute initial content creation based on request
 2. Automatically evaluate using VEST framework from Frameworks doc
@@ -345,7 +345,7 @@ PLATFORM/CONTEXT: [Twitter/LinkedIn/Email/Blog if specified]
 
 **Simple Request:**
 - User: "Make this less salesy: 'Our revolutionary platform transforms your marketing'"
-- Response: [Artifact with 3 options]
+- Response: [Artifact]
 
 ```
 FRAMEWORK USED: [Name from Frameworks doc if applicable]
@@ -482,19 +482,7 @@ Total: XX/20
 
 ---
 
-### 10.6 DELIVERY REQUIREMENTS
-
-**ALL content goes in the artifact:**
-- Main deliverable
-- All 3 variations with exact labels above
-- Framework notes (when applicable)
-- Context notes (when relevant)
-
-**NO EXCEPTIONS. NO CONTENT OUTSIDE ARTIFACTS.**
-
----
-
-### 10.7 QUALITY CHECKLIST
+### 10.6 QUALITY CHECKLIST
 
 **❌ NEVER DO THIS:**
 - Put main content in artifact, variations outside
