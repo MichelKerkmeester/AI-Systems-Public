@@ -1,4 +1,4 @@
-# Personal Branding - Marketing Frameworks
+# Personal Branding - Marketing Frameworks v1.0
 
 ## ⚠️ CRITICAL USAGE NOTE
 
@@ -18,44 +18,6 @@
 - "problem" → Does NOT automatically mean PAS framework
 - "story" → Does NOT automatically mean STORY framework
 - "help" → Does NOT automatically mean HELP framework
-
----
-
-## 📋 TABLE OF CONTENTS
-
-### Core Navigation
-- [🚀 Framework Decision Tree](#-framework-decision-tree)
-- [🎯 Objective](#1--objective)
-- [🔍 Framework Selector](#2--framework-selector)
-- [📝 Writing Frameworks](#3--writing-frameworks)
-- [🎨 Tone Application](#4--tone-application-to-frameworks)
-- [✅ Quality Control](#5--quality-frameworks)
-
-### Framework Categories
-**🟢 Simple Frameworks (3-Part)**
-- [SVC → Situation • Value • Connection](#svc--situation--value--connection)
-- [QPT → Question • Perspective • Takeaway](#qpt--question--perspective--takeaway)
-- [DER → Do • Example • Result](#der--do--example--result)
-
-**🟡 Medium Frameworks (4-Part)**
-- [CASE → Context • Action • Stakes • Evolution](#case--context--action--stakes--evolution)
-- [PATH → Problem • Approach • Twist • Harvest](#path--problem--approach--twist--harvest)
-- [REAL → Recognize • Explore • Apply • Learn](#real--recognize--explore--apply--learn)
-
-**🔴 Complex Frameworks (5+ Parts)**
-- [STORY → Setup • Tension • Opportunity • Resolution • Yes-And](#story--setup--tension--opportunity--resolution--yes-and)
-- [GUIDE → Goal • Understand • Install • Demo • Extend](#guide--goal--understand--install--demo--extend)
-- [HELP → Hook • Explain • List • Practice](#help--hook--explain--list--practice)
-
-### Reference Sections
-- [🎯 Common Marketing Scenarios](#6--common-marketing-scenarios)
-- [⚠️ Common Mistakes](#7--common-mistakes)
-- [🚀 Quick Reference](#8--quick-reference)
-
-### Quality & Tone Systems
-- [🎨 Framework + Tone Matrix](#framework--tone-combinations-matrix)
-- [✅ VEST Framework (20-Point System)](#vest-framework--value--economy--sound--truth)
-- [📊 Scoring Bands](#enhanced-vest-scoring-bands)
 
 ---
 
@@ -238,38 +200,7 @@ Practice: "Template with real examples"
 
 ---
 
-## 4. 🎨 TONE APPLICATION TO FRAMEWORKS
-
-### Tone Combination Effects
-Each tone changes HOW you execute a framework, not WHICH framework you choose:
-
-#### **Framework + Tone Combinations Matrix**
-| Framework | + Natural | + Casual | + Technical | + Educational | + Minimal |
-|-----------|-----------|----------|-------------|---------------|-----------|
-| **SVC** | Authentic insight | Personal story | Specific metrics | Learning moment | Sharp observation |
-| **QPT** | Genuine question | Coffee chat question | Technical challenge | Teaching question | Direct inquiry |
-| **CASE** | Real campaign story | Behind-scenes story | Implementation details | Step-by-step learning | Results summary |
-| **DER** | Practical tip | Quick hack | Method with data | Teaching tactic | Action only |
-| **PATH** | Journey with uncertainty | Adventure narrative | Process documentation | Learning progression | Solution path |
-| **STORY** | Human transformation | Character-driven tale | System evolution | Growth narrative | Impact story |
-
-### Quick Tone Selection:
-- **Audience unclear?** → Default to $natural
-- **Mixed audience?** → Use $educational  
-- **Technical audience?** → Add $technical as secondary
-- **Social platforms?** → Sprinkle $casual carefully
-- **Ad copy needs?** → Switch to $minimal
-
-### Tone Implementation Tips:
-- **$natural**: Keep conversational rough edges, express genuine uncertainty
-- **$casual**: Add personality and humor, but maintain Sarah's voice
-- **$technical**: Focus on methodologies and specific metrics
-- **$educational**: Use progressive teaching structure
-- **$minimal**: Strip to essential impact words only
-
----
-
-## 5. ✅ QUALITY FRAMEWORKS
+## 4. ✅ QUALITY FRAMEWORKS
 
 ### Quality Control Overview
 **Two-tier quality system:**
@@ -368,7 +299,7 @@ Each tone changes HOW you execute a framework, not WHICH framework you choose:
 
 ---
 
-## 6. 🎯 COMMON MARKETING SCENARIOS
+## 5. 🎯 COMMON MARKETING SCENARIOS
 
 | Scenario | Framework | Opening |
 |----------|-----------|---------|
@@ -382,7 +313,7 @@ Each tone changes HOW you execute a framework, not WHICH framework you choose:
 
 ---
 
-## 7. ⚠️ COMMON MISTAKES
+## 6. ⚠️ COMMON MISTAKES
 
 ### Framework Anti-patterns:
 - Using STORY for quick tips → Use DER
@@ -400,7 +331,7 @@ Each tone changes HOW you execute a framework, not WHICH framework you choose:
 
 ---
 
-## 8. 🚀 QUICK REFERENCE
+## 7. 🚀 QUICK REFERENCE
 
 **10-Second Framework Pick:**
 1. **Quick insight?** → SVC
