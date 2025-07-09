@@ -41,7 +41,7 @@ This system comes configured as "Sarah Chen" - a marketing leader with specific 
 **Example customization prompt:**
 ```
 $full Improve this prompt '''
-Transform the Personal Branding Writer system into a [YOUR ROLE] writer for [YOUR BRAND].
+Transform the Branded Content Writer system into a [YOUR ROLE] writer for [YOUR BRAND].
 
 Current system: Sarah Chen, marketing leader, 10+ years, data-driven storytelling
 Target system: [YOUR NAME/BRAND], [YOUR ROLE], [YOUR EXPERIENCE], [YOUR VOICE TRAITS]
@@ -57,13 +57,13 @@ See the full "Customization" section below for detailed instructions.
 ## 🎯 Full Customization Guide
 
 ### Transform Into ANY Brand Voice
-The Personal Branding Writer system is fully customizable. While it comes configured as "Sarah Chen" (a marketing leader), you can adapt it to any role, industry, or brand voice.
+The Branded Content Writer system is fully customizable. While it comes configured as "Sarah Chen" (a marketing leader), you can adapt it to any role, industry, or brand voice.
 
 **Quick customization with [Prompt Improver](https://github.com/MichelKerkmeester/AI-Systems-Public/tree/main/Writer%20-%20Prompt%20Improver):**
 
 ```
 $full Improve this prompt '''
-Transform the Personal Branding Writer system (currently configured as Sarah Chen, marketing leader) into a [YOUR ROLE] writer system for [YOUR COMPANY/BRAND].
+Transform the Branded Content Writer system (currently configured as Sarah Chen, marketing leader) into a [YOUR ROLE] writer system for [YOUR COMPANY/BRAND].
 
 Key changes needed:
 - Replace Sarah Chen with [YOUR NAME/BRAND]
@@ -78,7 +78,7 @@ Key changes needed:
 **Example for a Technical Writer:**
 ```
 $full Improve this prompt '''
-Transform the Personal Branding Writer system into a technical documentation writer system for a developer-focused SaaS company.
+Transform the Branded Content Writer system into a technical documentation writer system for a developer-focused SaaS company.
 
 Key changes:
 - Replace marketing storytelling with technical clarity
@@ -96,17 +96,18 @@ Key changes:
 1. Go to [claude.ai](https://claude.ai)
 2. Click "Projects" in the sidebar
 3. Click "Create project"
-4. Name it "Personal Branding Writer" (or your customized version)
+4. Name it "Branded Content Writer" (or your customized version)
 
 ### Step 2: Add the System Instructions
 1. In your project, click "Edit project details"
 2. Find the "Custom instructions" section
-3. Copy and paste the main system file: `Writer - Personal Branding - v1.0.md`
+3. Copy and paste the main system file: `Writer - Branded Content - v2.04.md`
 4. Save the project
 
-### Step 3: Upload Framework Document
-Upload the framework reference document to your project:
-- `Copywriter Frameworks.md` (contains all writing frameworks)
+### Step 3: Upload Supporting Documents
+Upload these documents to your project knowledge base:
+- `Artifact Standards & Templates.md` (mandatory artifact structures)
+- `Copywriter Frameworks.md` (all writing frameworks)
 
 ### Step 4: Start Creating!
 Begin any conversation in the project, and Claude will write in the configured brand voice (default: Sarah Chen), delivering marketing content in artifacts with 3 variations.
@@ -122,16 +123,13 @@ Write a LinkedIn post about the importance of A/B testing
 ```
 
 ### Mode Selection
-The system has seven specialized modes:
+The system has four specialized modes:
 
 | Mode | Command | Use For | Example Output Style |
 |------|---------|---------|---------------------|
 | **Write** | `$write` or `$w` (DEFAULT) | General content needs | Balanced marketing insights |
 | **Share** | `$share` or `$s` | Knowledge & insights | "Here's what worked..." |
 | **Connect** | `$connect` or `$c` | Building relationships | "Ever notice how we all..." |
-| **Advise** | `$advise` or `$a` | Problem-solving | "Start with these 3 steps..." |
-| **Story** | `$story` or `$st` | Case studies | "The campaign was failing until..." |
-| **Update** | `$update` or `$u` | Professional news | "Excited to share our team's..." |
 | **Improve** | `$improve` or `$i` | Optimize content | Full VEST evaluation + refined versions |
 
 ### Mode Examples:
@@ -141,12 +139,6 @@ $write a post about marketing automation best practices
 $share insights from our email campaign
 
 $connect with other marketers about budget constraints
-
-$advise on improving conversion rates
-
-$story about our product launch campaign
-
-$update announcing our new marketing initiative
 
 $improve [creates content then automatically refines it]
 ```
@@ -160,12 +152,11 @@ Combine modes with tones for precise voice control:
 
 | Tone | Code | Best For |
 |------|------|----------|
-| **Casual** | `+ $casual` | Social media, team updates |
-| **Technical** | `+ $technical` | Data reports, analytics |
-| **Educational** | `+ $educational` | Tutorials, guides |
-| **Fun** | `+ $fun` | Social campaigns |
-| **Formal** | `+ $formal` | Executive communications |
-| **Minimal** | `+ $minimal` | Ad copy, headlines |
+| **Natural** | `$natural` (DEFAULT) | Authentic voice with genuine uncertainty |
+| **Casual** | `$casual` | Social media, team updates |
+| **Technical** | `$technical` | Data reports, analytics |
+| **Educational** | `$educational` | Tutorials, guides |
+| **Minimal** | `$minimal` | Ad copy, headlines |
 
 ### Tone Combination Examples:
 ```
@@ -173,9 +164,9 @@ $write + $casual a social media post about our new feature
 
 $share + $casual insights about influencer marketing
 
-$advise + $technical on setting up GA4 conversion tracking
+$write + $technical on setting up GA4 conversion tracking
 
-$connect + $fun about marketing fails we've all experienced
+$connect + $educational about marketing measurement challenges
 ```
 
 .
@@ -183,18 +174,31 @@ $connect + $fun about marketing fails we've all experienced
 ## ✅ Output Format
 
 ### Every Response Includes:
-1. **Always in an artifact** (formatted content block)
-2. **3 variations minimum:**
+1. **Always in an artifact** (text/markdown format)
+2. **Mandatory structure with metadata:**
+   - Framework used (if applicable)
+   - Mode (write/share/connect/improve)
+   - Tone (natural by default)
+   - Platform (if specified)
+   - Context (from your query)
+3. **3 variations minimum:**
    - **Most concise:** Fewest words, maximum impact
    - **Most authentic:** Natural Sarah voice with stories
    - **Most valuable:** Maximum actionable takeaway
-3. **Framework noted** when applicable
-4. **Platform optimization** when specified
 
 ### Example Output Structure:
 ```
-FRAMEWORK USED: SVC (Situation•Value•Connection)
+FRAMEWORK: SVC (Situation•Value•Connection)
+MODE: $write
+TONE: $natural
 PLATFORM: LinkedIn
+CONTEXT: A/B testing importance for marketers
+
+Stock photos killed our CTR. Real employees increased it by 47%.
+
+---
+
+## Variations
 
 ### Most concise:
 Stock photos killed our CTR. Real employees: +47%. You?
@@ -243,14 +247,13 @@ This mode automatically:
 
 Perfect for high-stakes content!
 
-### 4. Combine Modes for Nuance
-```
-$connect + $advise for mentoring content
+### 4. Natural Voice is Default
+The system defaults to `$natural` tone - authentic voice with:
+- Genuine uncertainty ("Still figuring out why...")
+- Conversational fragments
+- Real campaign stories
+- Team credit naturally included
 
-$share + $story for case study insights
-
-$update + $casual for team announcements
-```
 .
 
 ## 🎯 Best Practices
@@ -265,12 +268,11 @@ Try: `case study about increasing SaaS trial conversions from 2% to 8%`
 
 ### 3. Specify Audience When Relevant
 ```
-$advise small business owners on social media marketing with limited budget
+$write for small business owners about social media marketing with limited budget
 ```
 
-### 4. Use Tone Combinations Wisely
-✅ Good: `$casual + $educational`
-❌ Avoid: `$fun + $formal` (conflicting tones)
+### 4. Trust the Default Mode
+The system defaults to `$write` with `$natural` tone - this works for 80% of requests!
 
 ### 5. Request Specific Metrics
 ```
@@ -282,9 +284,9 @@ Include these results: 47% CTR increase, $50K saved, 3-month timeline
 ## 🆘 Troubleshooting
 
 ### "It's not writing in Sarah's voice"
-- Make sure you're in the Personal Branding Writer project
-- Check that system instructions are properly saved
-- Try using explicit mode commands: `$write [your request]`
+- Make sure you're in the Branded Content Writer project
+- Check that all 3 documents are uploaded to knowledge base
+- System instructions should be in project settings
 
 ### "I want a different voice/personality"
 - Use the Prompt Improver customization method (see top of guide)
@@ -297,6 +299,11 @@ Include these results: 47% CTR increase, $50K saved, 3-month timeline
 - Choose the "most concise" variation
 
 ### "I need more than 3 variations"
-- Ask for more variations or make multiple requests with different modes
-- Try: `$share`, then `$connect`, then `$advise` for variety
+- Ask explicitly: "Create 5 variations"
+- Try different mode combinations
 - Use tone modifiers for additional variations
+
+### "Framework selection seems off"
+- Specify framework directly: "Use SVC framework"
+- Or request: "Write naturally without framework"
+- Remember: Simple edits don't need frameworks!
