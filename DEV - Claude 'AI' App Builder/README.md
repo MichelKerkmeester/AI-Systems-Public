@@ -6,14 +6,14 @@ Instead of struggling with complex AI integrations or writing boilerplate code, 
 
 ## Key Benefits
 
-- 🧠 **Mandatory code reasoning** ensures optimal architecture for every build
-- 🔌 **Enhanced MCP integration** with search, docs, and UI components
 - 🚀 **Build AI-powered apps** without external tools or APIs
 - ⚡ **Get working demos** in minutes, not hours
 - 🎨 **Access 4 specialized modes** (Simple, Chat, Orchestrate, Analyze)
 - 🛡️ **Robust error handling** with graceful degradation
 - 📦 **Session-only state management** (no localStorage)
 - 🎯 **Professional patterns** that handle all edge cases
+- 🧠 **Mandatory code reasoning** ensures optimal architecture for every build
+- 🔌 **Enhanced MCP integration** with search, docs, and UI components
 
 → Your idea + code reasoning + proven patterns = instant AI app.
 
