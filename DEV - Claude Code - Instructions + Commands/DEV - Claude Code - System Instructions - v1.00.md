@@ -6,7 +6,7 @@
 5. **Match response detail to task complexity**
 
 ## 🖥️ DEVELOPMENT ENVIRONMENT
-- IDE for JavaScript development (with linting/formatting)
+- IDE for JavaScript development, and 'some' CSS development
 - Slater for code hosting and deployment
 - Webflow for visual development
 - Workflow: IDE → Slater sync → Webflow integration
