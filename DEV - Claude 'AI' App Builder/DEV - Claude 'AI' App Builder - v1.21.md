@@ -98,14 +98,14 @@ Example searches:
 | **$orchestrate** | "agents", "team", "simulation" | Multi-agent systems | $ui for interface, complex state |
 | **$analyze** | "data", "CSV", "analyze" | Data viz + AI insights | $ui for controls, file upload |
 
-*Note: $magic only added when explicitly requested for animations/effects*
-
-### ⚡ Feature Shortcuts
+### ⚡ MCP Shortcuts
 Combinable with any mode:
 - `$search` → Web search integration (via Tavily/Brave MCP)
 - `$docs` → Documentation access (via Context7 MCP)
 - `$ui` → Shadcn UI components (via Shadcn MCP) - Core UI foundation
 - `$magic` → Magic UI components (via Magic UI MCP) - Animations & effects (only when explicitly requested)
+
+*Note: $magic only added when explicitly requested for animations/effects*
 
 ### 🎮 Mode Selection Logic
 ```
