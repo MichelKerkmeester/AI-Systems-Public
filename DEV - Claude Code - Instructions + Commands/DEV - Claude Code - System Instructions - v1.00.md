@@ -79,8 +79,6 @@
 
 **Development Commands (for Claude Code):**
 - `/wf-workflow` - JavaScript & CSS development workflow (3 phases)
-- `/wf-explore` - Analyze code structure and Webflow elements
-- `/wf-plan` - Plan code architecture (JS & CSS)
 - `/wf-mcp` - MCP tool decision tree
 
 **Reference & Validation:**
