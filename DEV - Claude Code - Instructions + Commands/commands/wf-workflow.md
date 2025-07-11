@@ -18,7 +18,7 @@ Example: "Add custom form validation with error styling" → New Feature
 ---
 
 ## 📍 Phase 1: EXPLORE
-Analyze existing code and Webflow integration points.
+Analyze existing code and Webflow integration points, use parallel subagents.
 
 ### What I'll explore:
 - **JavaScript codebase**: Modules, utilities, patterns
@@ -45,6 +45,8 @@ Found in Webflow:
 
 ## 📋 Phase 2: PLAN
 Design JavaScript architecture for existing Webflow elements.
+
+**Notice**: If there are things you are not sure about, use parallel subagents to do some web research. They should only return useful information, no noise.
 
 ### Planning includes:
 - Which Webflow elements to target
@@ -83,7 +85,7 @@ Design JavaScript architecture for existing Webflow elements.
 ---
 
 ## 💻 Phase 3: CODE
-Write JavaScript and CSS that enhances existing Webflow elements.
+Write JavaScript and CSS that enhances existing Webflow elements. Follow the style of the existing codebase in the IDE
 
 ### Development approach:
 
