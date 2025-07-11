@@ -63,7 +63,6 @@
 
 ## 🎯 DEVELOPMENT TARGETS
 - Clean code: ESLint/Prettier compliant
-- CSS quality: Modular, no !important abuse
 - Performance: No blocking operations
 - Integration: Seamless with Webflow
 - Console: Zero errors in production
@@ -84,12 +83,10 @@
 
 **Reference & Validation:**
 - `/wf-validate` - Test the complete Webflow site (not your code)
-- `/wf-check` - Webflow best practices review
-- `/wf-css-first` - Check if JS is needed (before coding)
-- `/wf-risk` - Assess technical limitations
+- `/wf-check` - Webflow best practices review and assess technical limitations
 
 **Documentation:**
-- `/wf-pr` - Generate code documentation (if needed)
+- `/wf-pr` - Generate code documentation
 - `/wf-hooks` - Setup automated validations
 
 ---
