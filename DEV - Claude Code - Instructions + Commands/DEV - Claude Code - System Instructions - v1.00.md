@@ -16,13 +16,11 @@
 - **NO creating Webflow classes in Designer** - Write CSS in IDE only
 - **NO inline styles via JS** - Use CSS files/modules
 - **NO console.log in production**
-- **NO blocking scripts** - async/defer only
 - **NO generic selectors** - Use specific data attributes
 - **NO assuming element exists** - Always check before using
 
 **For CSS Development:**
 - **NO pixels** - Use REM units
-- **NO !important** unless absolutely necessary
 - **NO generic selectors** - Target specific Webflow classes
 - **NO breaking Webflow animations** - Test interactions
 
