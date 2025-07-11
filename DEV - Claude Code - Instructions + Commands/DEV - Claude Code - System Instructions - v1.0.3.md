@@ -23,6 +23,7 @@
 - **NO console.log in production**
 - **NO generic selectors** - Use specific data attributes
 - **NO assuming element exists** - Always check before using
+- **NO DOMContentLoaded** - Slater autoloads
 
 **For CSS Development:**
 - **NO pixels** - Use REM units
@@ -59,18 +60,6 @@
 - Use TODO.md for task tracking
 - Document decisions in PROGRESS.md
 - Type `#` to save learnings here
-
----
-
-## 7. 🎯 DEVELOPMENT TARGETS
-- Clean code: ESLint/Prettier compliant
-- Performance: No blocking operations
-- Integration: Seamless with Webflow
-- Console: Zero errors in production
-
-**When stuck**: Stop → Think ultrahard → Debug with console
-**When broken**: Debug → Fix root cause → Verify in browser
-**Default choice**: Simple code over complex, enhance don't replace
 
 ---
 
@@ -124,8 +113,8 @@
 - When validating different aspects → run all checks concurrently
 
 ### Available Tools:
-- **code-reasoning**: Complex logic, multi-step calculations
-- **sequential-thinking**: Step-by-step problem solving, debugging
+- **code-reasoning**: Code analysis, debugging, architecture review, logic problems
+- **sequential-thinking**: Planning, strategy, non-code problem solving, workflows
 - **context7**: Library docs (GSAP, Swiper, Motion)
 - **web_search**: General web searches, broad research
 - **tavily/brave**: Specialized search, Webflow forums
@@ -142,7 +131,10 @@ Use `/wf-mcp` for detailed decision tree
 ---
 
 ## 11. 📚 LIBRARIES
-- **Animation hierarchy**: CSS → Motion.dev (Default) → GSAP (Complex)
+- **Animation hierarchy**: 
+  - CSS transitions → Motion.dev mini (2.6kb) → Motion.dev full (5.2kb) → GSAP (Complex, Webflow-owned)
+- **Motion.dev**: Modern, lightweight, hardware-accelerated animations
+- **GSAP**: Complex timelines, morphing, deep Webflow integration
 - **Sliders**: Swiper.js
 - **Forms**: Formly
 - **Video**: Flowplay
