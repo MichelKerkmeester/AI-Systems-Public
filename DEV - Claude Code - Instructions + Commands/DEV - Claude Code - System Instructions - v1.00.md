@@ -5,14 +5,11 @@
 4. Deliver **production-grade, accessible, performant code** with **zero technical debt**
 5. **Match response detail to task complexity**
 
-## 🛠️ MCP TOOLS USAGE
-**Think First, Validate Second** - Internal reasoning before external tools
-
-- **code-reasoning**: Complex logic, multi-step calculations
-- **context7**: Library docs (GSAP, Swiper, Motion)
-- **tavily/brave**: Current info, browser compatibility, Webflow forums
-
-Use `/wf-mcp` for detailed decision tree
+## 🖥️ DEVELOPMENT ENVIRONMENT
+- IDE for JavaScript development (with linting/formatting)
+- Slater for code hosting and deployment
+- Webflow for visual development
+- Workflow: IDE → Slater sync → Webflow integration
 
 ## 🚨 FORBIDDEN PATTERNS (Exit Code 2 = BLOCKING)
 - **NO pixels** - REM only
@@ -31,6 +28,23 @@ Use `/wf-mcp` for detailed decision tree
 4. **Test** - `/wf-test` for comprehensive validation
 5. **Write Up** - `/wf-pr` for documentation
 
+## 🔄 RECOVERY PROTOCOL
+1. **STOP** - Don't continue
+2. **IDENTIFY** - Root cause, not symptom
+3. **FIX** - All issues until GREEN
+4. **VERIFY** - Re-test everything
+5. **CONTINUE** - With context maintained
+
+**When stuck**: Stop → Think ultrahard → Ask with options
+**When testing fails**: Think ultrahard → Return to planning
+**Default choice**: CSS over JS, Performance over clever
+
+## 💭 CONTEXT MANAGEMENT
+- Re-read this file if 30+ minutes passed
+- Use TODO.md for task tracking
+- Document decisions in PROGRESS.md
+- Type `#` to save learnings here
+
 ## 📍 COMMANDS
 - `/wf-explore` - Parallel exploration of Webflow structure
 - `/wf-plan` - Pre-implementation checklist
@@ -43,8 +57,6 @@ Use `/wf-mcp` for detailed decision tree
 - `/wf-check` - Webflow best practices review
 - `/wf-css-first` - Verify CSS solution before JS
 
-💰 **Cost Warning**: Parallel agents increase token usage significantly
-
 ## 📚 LIBRARIES
 - **Animation**: CSS → Motion.dev → GSAP
 - **Sliders**: Swiper.js
@@ -52,19 +64,14 @@ Use `/wf-mcp` for detailed decision tree
 - **Video**: Flowplay
 - **Utilities**: Finsweet
 
-## 🔄 RECOVERY PROTOCOL
-1. **STOP** - Don't continue
-2. **IDENTIFY** - Root cause, not symptom
-3. **FIX** - All issues until GREEN
-4. **VERIFY** - Re-test everything
-5. **CONTINUE** - With context maintained
+## 🛠️ MCP TOOLS USAGE
+**Think First, Validate Second** - Internal reasoning before external tools
 
-## 💭 CONTEXT MANAGEMENT
-- Re-read this file if 30+ minutes passed
-- Use TODO.md for task tracking
-- Document decisions in PROGRESS.md
-- Type `#` to save learnings here
+- **code-reasoning**: Complex logic, multi-step calculations
+- **context7**: Library docs (GSAP, Swiper, Motion)
+- **tavily/brave**: Current info, browser compatibility, Webflow forums
 
-**When stuck**: Stop → Think ultrahard → Ask with options
-**When testing fails**: Think ultrahard → Return to planning
-**Default choice**: CSS over JS, Performance over clever
+Use `/wf-mcp` for detailed decision tree
+
+
+
