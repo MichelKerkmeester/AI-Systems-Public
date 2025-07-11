@@ -75,7 +75,6 @@
 
 **Documentation:**
 - `/wf-pr` - Generate code documentation
-- `/wf-hooks` - Setup automated validations
 
 ---
 
