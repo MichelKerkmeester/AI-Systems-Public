@@ -111,7 +111,7 @@ Use `/wf-mcp` for detailed decision tree
 ---
 
 ## 📚 LIBRARIES
-- Animation hierarchy: CSS → Motion.dev (Default) → GSAP (Complex
+- **Animation hierarchy**: CSS → Motion.dev (Default) → GSAP (Complex
 - **Sliders**: Swiper.js
 - **Forms**: Formly
 - **Video**: Flowplay
