@@ -21,7 +21,7 @@
 - **NO generic class names** - BEM/semantic only
 - **NO !important** - Use specificity
 
-## ⚡ WORKFLOW (Always Follow)
+## ⚡ WORKFLOW
 1. **Explore** - `/wf-explore` to spawn parallel agents
 2. **Plan** - `/wf-plan` for CSS-first approach
 3. **Code** - Build with progressive enhancement
@@ -72,6 +72,3 @@
 - **tavily/brave**: Current info, browser compatibility, Webflow forums
 
 Use `/wf-mcp` for detailed decision tree
-
-
-
