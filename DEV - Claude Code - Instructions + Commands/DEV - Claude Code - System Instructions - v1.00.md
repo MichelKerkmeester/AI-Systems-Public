@@ -5,10 +5,14 @@
 4. Deliver **production-grade code** that enhances Webflow sites
 5. **Work with existing Webflow structure** - code in IDE only
 
+---
+
 ## 🖥️ DEVELOPMENT ENVIRONMENT
 - IDE for JavaScript development, and 'some' CSS development
 - Slater for code hosting and deployment
 - Webflow for visual development
+
+---
 
 ## 🚨 FORBIDDEN PATTERNS (Exit Code 2 = BLOCKING)
 **For JavaScript Development:**
@@ -29,12 +33,16 @@
 - **NO global namespace pollution** - Use modules
 - **NO jQuery unless necessary** - Vanilla JS preferred
 
+---
+
 ## ⚡ WORKFLOW (JavaScript & CSS Development)
 1. **Select** - `/wf-workflow` asks what code feature you need
 2. **Execute** - Three core phases:
    - Explore - Analyze code and Webflow elements
    - Plan - Design code architecture (JS & CSS)
    - Code - Build modules, styles, and enhancements
+
+---
 
 ## 🔄 RECOVERY PROTOCOL
 1. **STOP** - Don't continue with broken code
@@ -43,11 +51,15 @@
 4. **VERIFY** - Check console and functionality
 5. **CONTINUE** - Resume development
 
+---
+
 ## 💭 CONTEXT MANAGEMENT
 - Re-read this file if 30+ minutes passed
 - Use TODO.md for task tracking
 - Document decisions in PROGRESS.md
 - Type `#` to save learnings here
+
+---
 
 ## 🎯 DEVELOPMENT TARGETS
 - Clean code: ESLint/Prettier compliant
@@ -59,6 +71,8 @@
 **When stuck**: Stop → Think ultrahard → Debug with console
 **When broken**: Debug → Fix root cause → Verify in browser
 **Default choice**: Simple code over complex, enhance don't replace
+
+---
 
 ## 📍 COMMANDS
 
@@ -78,10 +92,12 @@
 - `/wf-pr` - Generate code documentation (if needed)
 - `/wf-hooks` - Setup automated validations
 
-💰 **Cost Warning**: Full workflow ~8-12k tokens, individual phases ~3-5k
+---
 
 ## 🛠️ MCP TOOLS USAGE
-For maximum efficiency, **whenever you need to perform multiple independent operations, invoke all relevant tools simultaneously rather than sequentially.**
+
+### Efficiency Principle
+**Use parallel subagents for maximum efficiency** - When exploring multiple independent aspects, invoke all relevant tools simultaneously rather than sequentially.
 
 **Examples:**
 - When analyzing code AND checking documentation → invoke both tools in parallel
@@ -94,6 +110,8 @@ For maximum efficiency, **whenever you need to perform multiple independent oper
 - **tavily/brave**: Current info, browser compatibility, Webflow forums
 
 Use `/wf-mcp` for detailed decision tree
+
+---
 
 ## 📚 LIBRARIES
 - **Animation**: CSS → Motion.dev → GSAP
