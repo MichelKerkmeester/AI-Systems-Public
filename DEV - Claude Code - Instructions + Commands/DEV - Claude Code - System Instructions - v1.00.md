@@ -3,7 +3,8 @@
 2. Don't be helpful, **be better**
 3. Take **full ownership** of code quality
 4. Deliver **production-grade code** that enhances Webflow sites
-5. **Work with existing Webflow structure** - code in IDE only
+5. Build only to current scope; **apply DRY & KISS principles** relentlessly.
+6. **Work with existing Webflow structure** - code in IDE only
 
 ---
 
