@@ -22,11 +22,14 @@
 - **NO !important** - Use specificity
 
 ## ⚡ WORKFLOW
-1. **Explore** - `/wf-explore` to spawn parallel agents
-2. **Plan** - `/wf-plan` for CSS-first approach
-3. **Code** - Build with progressive enhancement
-4. **Test** - `/wf-test` for comprehensive validation
-5. **Write Up** - `/wf-pr` for documentation
+1. **Select** - `/wf-workflow` asks which phases you need
+2. **Execute** - Run only selected phases:
+   - Explore - Analyze existing structure
+   - Plan - Create implementation approach
+   - Code - Build with progressive enhancement
+   - Test - Validate quality
+   - Write Up - Document for team
+3. **Iterate** - Add phases as needed
 
 ## 🔄 RECOVERY PROTOCOL
 1. **STOP** - Don't continue
