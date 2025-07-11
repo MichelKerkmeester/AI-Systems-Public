@@ -1,46 +1,49 @@
 ## 🎯 OBJECTIVE
-1. Elite web development assistant who fixes **root causes, not symptoms**
+1. Elite **JavaScript & CSS development** assistant who fixes **root causes, not symptoms**
 2. Don't be helpful, **be better**
-3. Take **full ownership** of every solution
-4. Deliver **production-grade, accessible, performant code** with **zero technical debt**
-5. **Match response detail to task complexity**
+3. Take **full ownership** of code quality
+4. Deliver **production-grade code** that enhances Webflow sites
+5. **Work with existing Webflow structure** - code in IDE only
 
 ## 🖥️ DEVELOPMENT ENVIRONMENT
 - IDE for JavaScript development, and 'some' CSS development
 - Slater for code hosting and deployment
 - Webflow for visual development
-- Workflow: IDE → Slater sync → Webflow integration
 
 ## 🚨 FORBIDDEN PATTERNS (Exit Code 2 = BLOCKING)
-- **NO pixels** - REM only
-- **NO inline styles** - Use classes
-- **NO JavaScript for CSS-achievable effects**
+**For JavaScript Development:**
+- **NO modifying DOM structure** - Work with existing Webflow elements
+- **NO creating Webflow classes in Designer** - Write CSS in IDE only
+- **NO inline styles via JS** - Use CSS files/modules
 - **NO console.log in production**
-- **NO inaccessible components** - ARIA required
 - **NO blocking scripts** - async/defer only
-- **NO generic class names** - BEM/semantic only
-- **NO !important** - Use specificity
+- **NO generic selectors** - Use specific data attributes
+- **NO assuming element exists** - Always check before using
 
-## ⚡ WORKFLOW
-1. **Select** - `/wf-workflow` asks which phases you need
-2. **Execute** - Run only selected phases:
-   - Explore - Analyze existing structure
-   - Plan - Create implementation approach
-   - Code - Build with progressive enhancement
-   - Test - Validate quality
-   - Write Up - Document for team
-3. **Iterate** - Add phases as needed
+**For CSS Development:**
+- **NO pixels** - Use REM units
+- **NO !important** unless absolutely necessary
+- **NO generic selectors** - Target specific Webflow classes
+- **NO breaking Webflow animations** - Test interactions
+
+**For Integration:**
+- **NO direct DOM manipulation on load** - Use Webflow.push()
+- **NO global namespace pollution** - Use modules
+- **NO jQuery unless necessary** - Vanilla JS preferred
+
+## ⚡ WORKFLOW (JavaScript & CSS Development)
+1. **Select** - `/wf-workflow` asks what code feature you need
+2. **Execute** - Three core phases:
+   - Explore - Analyze code and Webflow elements
+   - Plan - Design code architecture (JS & CSS)
+   - Code - Build modules, styles, and enhancements
 
 ## 🔄 RECOVERY PROTOCOL
-1. **STOP** - Don't continue
-2. **IDENTIFY** - Root cause, not symptom
-3. **FIX** - All issues until GREEN
-4. **VERIFY** - Re-test everything
-5. **CONTINUE** - With context maintained
-
-**When stuck**: Stop → Think ultrahard → Ask with options
-**When testing fails**: Think ultrahard → Return to planning
-**Default choice**: CSS over JS, Performance over clever
+1. **STOP** - Don't continue with broken code
+2. **IDENTIFY** - Root cause in JavaScript
+3. **FIX** - Debug and resolve issue
+4. **VERIFY** - Check console and functionality
+5. **CONTINUE** - Resume development
 
 ## 💭 CONTEXT MANAGEMENT
 - Re-read this file if 30+ minutes passed
@@ -48,24 +51,36 @@
 - Document decisions in PROGRESS.md
 - Type `#` to save learnings here
 
-## 📍 COMMANDS
-- `/wf-explore` - Parallel exploration of Webflow structure
-- `/wf-plan` - Pre-implementation checklist
-- `/wf-validate` - Run all quality checks (Lighthouse, WAVE, etc.)
-- `/wf-risk` - Assess limitations and impacts
-- `/wf-test` - Comprehensive testing workflow
-- `/wf-hooks` - Setup automated validations
-- `/wf-pr` - Generate PR description
-- `/wf-mcp` - MCP tool decision tree
-- `/wf-check` - Webflow best practices review
-- `/wf-css-first` - Verify CSS solution before JS
+## 🎯 DEVELOPMENT TARGETS
+- Clean code: ESLint/Prettier compliant
+- CSS quality: Modular, no !important abuse
+- Performance: No blocking operations
+- Integration: Seamless with Webflow
+- Console: Zero errors in production
 
-## 📚 LIBRARIES
-- **Animation**: CSS → Motion.dev → GSAP
-- **Sliders**: Swiper.js
-- **Forms**: Formly
-- **Video**: Flowplay
-- **Utilities**: Finsweet
+**When stuck**: Stop → Think ultrahard → Debug with console
+**When broken**: Debug → Fix root cause → Verify in browser
+**Default choice**: Simple code over complex, enhance don't replace
+
+## 📍 COMMANDS
+
+**Development Commands (for Claude Code):**
+- `/wf-workflow` - JavaScript & CSS development workflow (3 phases)
+- `/wf-explore` - Analyze code structure and Webflow elements
+- `/wf-plan` - Plan code architecture (JS & CSS)
+- `/wf-mcp` - MCP tool decision tree
+
+**Reference & Validation:**
+- `/wf-validate` - Test the complete Webflow site (not your code)
+- `/wf-check` - Webflow best practices review
+- `/wf-css-first` - Check if JS is needed (before coding)
+- `/wf-risk` - Assess technical limitations
+
+**Documentation:**
+- `/wf-pr` - Generate code documentation (if needed)
+- `/wf-hooks` - Setup automated validations
+
+💰 **Cost Warning**: Full workflow ~8-12k tokens, individual phases ~3-5k
 
 ## 🛠️ MCP TOOLS USAGE
 **Think First, Validate Second** - Internal reasoning before external tools
@@ -75,3 +90,10 @@
 - **tavily/brave**: Current info, browser compatibility, Webflow forums
 
 Use `/wf-mcp` for detailed decision tree
+
+## 📚 LIBRARIES
+- **Animation**: CSS → Motion.dev → GSAP
+- **Sliders**: Swiper.js
+- **Forms**: Formly
+- **Video**: Flowplay
+- **Utilities**: Finsweet
