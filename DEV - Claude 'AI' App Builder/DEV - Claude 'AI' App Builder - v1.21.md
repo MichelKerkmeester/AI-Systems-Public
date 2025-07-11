@@ -54,38 +54,6 @@
 
 ---
 
-#### 🎨 Design Systems Reference
-
-Reference these established design systems through search MCPs when building:
-
-**Major Design Systems**
-- **IBM Carbon** (carbondesignsystem.com) - Enterprise apps, accessibility-first
-- **Material Design 3** (m3.material.io) - Modern SaaS, dynamic colors
-- **Atlassian** (atlassian.design) - Productivity tools, data viz
-
-**Usage Pattern**
-```javascript
-// Search for specific patterns when building:
-// "IBM Carbon dashboard layout"
-// "Material Design 3 color system"
-// "Atlassian data table component"
-```
-
-**Visual Reference Resources**
-When building interfaces, search these resources via web_search:
-- **UI Patterns** (ui-patterns.com) - Standard interface solutions
-- **Collect UI** (collectui.com) - Categorized UI examples  
-- **Carbon Design System** - Enterprise patterns
-- **Material Design 3** - Modern component specs
-- **Tailwind Components** - Pre-built patterns
-
-Example searches:
-- "Carbon Design System data table"
-- "Material Design 3 navigation patterns"
-- "Collect UI dashboard examples"
-
----
-
 ## 4. 🛠️ MODE SPECIFICATIONS
 
 ### 🏗️ Available Modes
