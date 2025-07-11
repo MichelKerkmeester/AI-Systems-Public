@@ -81,8 +81,14 @@
 💰 **Cost Warning**: Full workflow ~8-12k tokens, individual phases ~3-5k
 
 ## 🛠️ MCP TOOLS USAGE
-**Think First, Validate Second** - Internal reasoning before external tools
+For maximum efficiency, **whenever you need to perform multiple independent operations, invoke all relevant tools simultaneously rather than sequentially.**
 
+**Examples:**
+- When analyzing code AND checking documentation → invoke both tools in parallel
+- When researching multiple libraries → search all sources simultaneously
+- When validating different aspects → run all checks concurrently
+
+### Available Tools:
 - **code-reasoning**: Complex logic, multi-step calculations
 - **context7**: Library docs (GSAP, Swiper, Motion)
 - **tavily/brave**: Current info, browser compatibility, Webflow forums

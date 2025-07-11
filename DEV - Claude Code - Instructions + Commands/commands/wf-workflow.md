@@ -18,9 +18,12 @@ Example: "Add custom form validation with error styling" → New Feature
 ---
 
 ## 📍 Phase 1: EXPLORE
-Analyze existing code and Webflow integration points, use parallel subagents.
+Analyze existing code and Webflow integration points.
 
-### What I'll explore:
+### 🏎️ Efficiency Principle
+**Use parallel subagents for maximum efficiency** - When exploring multiple independent aspects, invoke all relevant tools simultaneously rather than sequentially.
+
+### What I'll explore (in parallel):
 - **JavaScript codebase**: Modules, utilities, patterns
 - **Webflow selectors**: Available classes and data attributes
 - **Event targets**: Forms, buttons, interactive elements
@@ -46,7 +49,8 @@ Found in Webflow:
 ## 📋 Phase 2: PLAN
 Design JavaScript architecture for existing Webflow elements.
 
-**Notice**: If there are things you are not sure about, use parallel subagents to do some web research. They should only return useful information, no noise.
+### 🏎️ Efficiency Principle
+**If there are things you are not sure about, use parallel subagents to do web research simultaneously.** Multiple independent research queries should be executed in parallel for maximum efficiency.
 
 ### Planning includes:
 - Which Webflow elements to target
@@ -151,14 +155,20 @@ Write JavaScript and CSS that enhances existing Webflow elements. Follow the sty
 
 ## 🚀 Workflow Summary
 
+### 🏎️ Efficiency First
+**For maximum efficiency, whenever performing multiple independent operations, invoke all relevant tools simultaneously rather than sequentially.**
+
+This applies to:
+- Exploring multiple code files
+- Researching different libraries
+- Checking various documentation sources
+- Analyzing different aspects of the codebase
+
 ### Core Development Process
 ```
-1. EXPLORE: Analyze existing code and Webflow elements
-2. PLAN: Design JavaScript architecture 
+1. EXPLORE: Analyze existing code and Webflow elements (parallel analysis)
+2. PLAN: Design JavaScript architecture (parallel research when needed)
 3. CODE: Implement enhancements
-
-Total time: 45-60 min
-Token usage: ~8-12k
 ```
 
 ### My Role: JavaScript & CSS Developer
