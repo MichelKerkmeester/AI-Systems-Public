@@ -31,8 +31,6 @@
 6. **Use `will-change` sparingly** and remove after animation
 7. **Batch DOM updates** in animation loops
 
----
-
 ### 🖥️ DEVELOPMENT ENVIRONMENT
 - **IDE** for JavaScript development and CSS development
 - **Slater** for code hosting and deployment
