@@ -11,14 +11,8 @@ A comprehensive set of IDE rules that transforms AI assistants into elite softwa
 
 **Perfect for:** Webflow developers, frontend engineers, and anyone building performant web applications.
 
-.
-
-## 🚀 What's New in v3.6
-
-- **🧔 MCP Tool Integration**: Systematic use of code-reasoning, Context7, and search tools
-- **🏎️ MCP Workflow**: Think first, validate second approach
-- **🌲 MCP Decision Tree**: Clear guidance on when to use which tool
-- **📋 MCP Checklist**: Before/after coding validation steps
+> [!NOTE]  
+> While this system is optimized for a **Webflow + Slater** workflow, its principles can be easily adapted for any other development environment or use case.
 
 .
 
@@ -126,12 +120,3 @@ The system enforces 10 core principles + MCP workflows:
 - [Swiper.js](https://swiperjs.com)
 - [Webflow Forums](https://forum.webflow.com)
 - [Finsweet Resources](https://finsweet.com)
-
-.
-
-## 📝 Version History
-
-- **v3.6** - Added MCP integration, workflow, and decision tree
-- **v3.0** - Enhanced Webflow/Slater execution rules
-- **v2.0** - Added library hierarchy and performance optimizations
-- **v1.0** - Initial release with core principles
