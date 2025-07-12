@@ -1,4 +1,5 @@
-# Project Planning
+# PLANNING.md - Project Planning
+**This is a template, do not modify it directly**
 
 ---
 

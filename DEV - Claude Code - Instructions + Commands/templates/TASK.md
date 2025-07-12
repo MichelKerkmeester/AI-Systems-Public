@@ -1,4 +1,5 @@
-# Project Tasks
+# TASK.md - Project Tasks
+**This is a template, do not modify it directly**
 
 ---
 
