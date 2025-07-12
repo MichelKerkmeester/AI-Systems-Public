@@ -1,4 +1,4 @@
-# Claude Code - Instructions + Commands
+# Claude Code - Instructions + Commands - User Guide
 
 Transform your development workflow with intelligent commands and automated validation for Webflow projects.
 
