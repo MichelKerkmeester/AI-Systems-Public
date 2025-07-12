@@ -1,4 +1,4 @@
-# Claude Code System - AI-Powered Development Assistant
+# Claude Code - Instructions + Commands
 
 Transform your development workflow with intelligent commands and automated validation for Webflow projects.
 
