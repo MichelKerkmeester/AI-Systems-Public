@@ -27,7 +27,7 @@ The Dev Ticket Writer system transforms any request into clear, actionable devel
 ### Step 2: Add the System Instructions
 1. In your project, click "Edit project details"
 2. Find the "Custom instructions" section
-3. Copy and paste the main system file: `Writer - Dev Tickets - v1.4.md`
+3. Copy and paste the main system file: `Writer - Dev Tickets - v1.6.md`
 4. Save the project
 
 ### Step 3: Upload Reference Document
@@ -36,6 +36,82 @@ Upload the examples document to your project:
 
 ### Step 4: Start Writing Tickets!
 Begin any conversation in the project, and Claude will transform your requests into proper dev tickets.
+
+.
+
+## 🧠 Optional Enhancement: Sequential Thinking MCP
+
+### What is Sequential Thinking MCP?
+The Sequential Thinking MCP (Model Context Protocol) is a tool that enhances Claude's analytical capabilities by forcing systematic, step-by-step thinking before generating responses. When enabled, the system analyzes your feature request through multiple "thoughts" before writing tickets, resulting in more complete and well-structured tickets.
+
+### Why Use It for Dev Tickets?
+- **Better requirement analysis**: System thoroughly analyzes user needs before writing
+- **Fewer clarifications needed**: Systematic thinking catches missing details early
+- **More complete tickets**: Considers edge cases and dependencies automatically
+- **Consistent structure**: Ensures all ticket components are properly addressed
+- **Smarter mode selection**: Better analysis of complexity to choose the right ticket mode
+
+### How to Install Sequential Thinking MCP
+
+**Prerequisites:**
+- Claude Desktop app installed
+- Basic familiarity with editing configuration files
+
+**Installation Steps:**
+
+1. **Locate your Claude Desktop configuration:**
+   - **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+   - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+
+2. **Edit the configuration file** to add Sequential Thinking MCP:
+```json
+{
+  "mcpServers": {
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    }
+  }
+}
+```
+
+3. **If you already have other MCP servers**, add Sequential Thinking to the existing list:
+```json
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/files"]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    }
+  }
+}
+```
+
+4. **Save the file and restart Claude Desktop**
+
+5. **Verify installation** by starting a new chat and looking for the 🔌 icon, which should show "sequential-thinking" as an available tool
+
+### How It Works with Dev Tickets
+When Sequential Thinking MCP is available, the Dev Ticket Writer automatically:
+- Uses it for all ticket creation requests
+- Analyzes through 3+ thoughts:
+  - Understanding the feature request and user context
+  - Identifying missing information or clarifications
+  - Planning ticket structure and selecting appropriate mode
+- Only bypasses it for simple ticket edits
+- Creates more thorough and well-structured tickets
+
+**Note**: The system works perfectly without Sequential Thinking MCP. If it's not installed, you'll see "Sequential Thinking MCP not available, proceeding with standard analysis" and tickets will still be created using the system's built-in intelligence.
 
 .
 
@@ -145,4 +221,10 @@ $e create customer self-service portal
 ### "Icons aren't showing in tickets"
 - Icons should appear in ALL modes (Quick, Standard, Complex, Epic)
 - Every major section should have an icon
-- Check that you're using the latest version (v1.4)
+- Check that you're using the latest version (v1.6)
+
+### "Sequential Thinking MCP not working"
+- Check if it shows in the 🔌 tools menu
+- Verify your config file syntax is correct
+- Restart Claude Desktop after configuration changes
+- System works fine without it (just notes it's unavailable)

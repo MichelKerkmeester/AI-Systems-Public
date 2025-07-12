@@ -114,6 +114,78 @@ Begin any conversation in the project, and Claude will write in the configured b
 
 .
 
+## 🧠 Optional Enhancement: Sequential Thinking MCP
+
+### What is Sequential Thinking MCP?
+The Sequential Thinking MCP (Model Context Protocol) is a tool that enhances Claude's analytical capabilities by forcing systematic, step-by-step thinking before generating responses. When enabled, the system processes your request through multiple "thoughts" before writing, resulting in more nuanced and thoughtful content.
+
+### Why Use It?
+- **Better content strategy**: System analyzes audience, purpose, and context before writing
+- **Fewer revisions needed**: Thoughtful planning reduces need for edits
+- **More creative angles**: Sequential analysis often reveals unique perspectives
+- **Consistent quality**: Systematic approach ensures nothing is overlooked
+
+### How to Install Sequential Thinking MCP
+
+**Prerequisites:**
+- Claude Desktop app installed
+- Basic familiarity with editing configuration files
+
+**Installation Steps:**
+
+1. **Locate your Claude Desktop configuration:**
+   - **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+   - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+
+2. **Edit the configuration file** to add Sequential Thinking MCP:
+```json
+{
+  "mcpServers": {
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    }
+  }
+}
+```
+
+3. **If you already have other MCP servers**, add Sequential Thinking to the existing list:
+```json
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/files"]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    }
+  }
+}
+```
+
+4. **Save the file and restart Claude Desktop**
+
+5. **Verify installation** by starting a new chat and looking for the 🔌 icon, which should show "sequential-thinking" as an available tool
+
+### How It Works with This System
+When Sequential Thinking MCP is available, the Branded Content Writer automatically:
+- Uses it for all complex content requests
+- Analyzes your request through 3+ thoughts before writing
+- Considers audience, tone, framework selection, and strategy
+- Only bypasses it for simple edits (per Critical Rule #1)
+
+**Note**: The system works perfectly without Sequential Thinking MCP. If it's not installed, you'll see "Sequential Thinking MCP not available, proceeding with standard analysis" and content will still be created using the system's built-in intelligence.
+
+.
+
 ## 🎯 How to Use
 
 ### Basic Usage
@@ -253,57 +325,3 @@ The system defaults to `$natural` tone - authentic voice with:
 - Conversational fragments
 - Real campaign stories
 - Team credit naturally included
-
-.
-
-## 🎯 Best Practices
-
-### 1. Be Specific About Your Need
-Instead of: `write something`
-Try: `write a LinkedIn post about our new pricing strategy launch`
-
-### 2. Include Key Details
-Instead of: `case study`
-Try: `case study about increasing SaaS trial conversions from 2% to 8%`
-
-### 3. Specify Audience When Relevant
-```
-$write for small business owners about social media marketing with limited budget
-```
-
-### 4. Trust the Default Mode
-The system defaults to `$write` with `$natural` tone - this works for 80% of requests!
-
-### 5. Request Specific Metrics
-```
-Include these results: 47% CTR increase, $50K saved, 3-month timeline
-```
-
-.
-
-## 🆘 Troubleshooting
-
-### "It's not writing in Sarah's voice"
-- Make sure you're in the Branded Content Writer project
-- Check that all 3 documents are uploaded to knowledge base
-- System instructions should be in project settings
-
-### "I want a different voice/personality"
-- Use the Prompt Improver customization method (see top of guide)
-- Modify the system instructions to match your brand voice
-- Keep the framework structure for consistency
-
-### "The content seems too long"
-- Use `+ $minimal` tone modifier
-- Specifically request: "Keep under 50 words"
-- Choose the "most concise" variation
-
-### "I need more than 3 variations"
-- Ask explicitly: "Create 5 variations"
-- Try different mode combinations
-- Use tone modifiers for additional variations
-
-### "Framework selection seems off"
-- Specify framework directly: "Use SVC framework"
-- Or request: "Write naturally without framework"
-- Remember: Simple edits don't need frameworks!

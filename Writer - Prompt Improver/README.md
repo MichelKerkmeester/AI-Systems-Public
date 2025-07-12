@@ -23,7 +23,7 @@ The Prompt Improver System is a specialized Claude configuration that transforms
 ### Step 2: Add the System Instructions
 1. In your project, click "Edit project details"
 2. Find the "Custom instructions" section
-3. Copy and paste the entire prompt engineering system (the full text that defines the system)
+3. Copy and paste the main system file: `Writer - Prompt Improver - v2.8.md`
 4. Save the project
 
 ### Step 3: Upload Reference Documents
@@ -34,6 +34,82 @@ The system uses three reference documents. Upload these to your project:
 
 ### Step 4: Start Using It!
 Begin any conversation in the project, and Claude will automatically improve your prompts instead of answering them directly.
+
+.
+
+## 🧠 Optional Enhancement: Sequential Thinking MCP
+
+### What is Sequential Thinking MCP?
+The Sequential Thinking MCP (Model Context Protocol) is a tool that enhances Claude's analytical capabilities by forcing systematic, step-by-step thinking before generating responses. When enabled, the system analyzes prompts through multiple "thoughts" before improving them, resulting in more nuanced and effective enhancements.
+
+### Why Use It for Prompt Improvement?
+- **Deeper pattern analysis**: System identifies prompt weaknesses more systematically
+- **Better enhancement selection**: Chooses the most appropriate improvement techniques
+- **Smarter complexity matching**: Better adapts improvements to prompt complexity
+- **More creative approaches**: Sequential analysis often reveals unique enhancement angles
+- **Consistent quality**: Ensures no aspect of prompt improvement is overlooked
+
+### How to Install Sequential Thinking MCP
+
+**Prerequisites:**
+- Claude Desktop app installed
+- Basic familiarity with editing configuration files
+
+**Installation Steps:**
+
+1. **Locate your Claude Desktop configuration:**
+   - **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+   - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+
+2. **Edit the configuration file** to add Sequential Thinking MCP:
+```json
+{
+  "mcpServers": {
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    }
+  }
+}
+```
+
+3. **If you already have other MCP servers**, add Sequential Thinking to the existing list:
+```json
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/files"]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    }
+  }
+}
+```
+
+4. **Save the file and restart Claude Desktop**
+
+5. **Verify installation** by starting a new chat and looking for the 🔌 icon, which should show "sequential-thinking" as an available tool
+
+### How It Works with Prompt Improver
+When Sequential Thinking MCP is available, the Prompt Improver automatically:
+- Uses it for all prompt improvement requests
+- Analyzes through 3+ thoughts:
+  - Understanding user intent and prompt type
+  - Identifying weaknesses and enhancement opportunities
+  - Planning improvement approach and pattern selection
+- Only bypasses it for simple prompt edits
+- Creates more sophisticated and effective improvements
+
+**Note**: The system works perfectly without Sequential Thinking MCP. If it's not installed, you'll see "Sequential Thinking MCP not available, proceeding with standard analysis" and prompts will still be improved using the system's built-in intelligence.
 
 .
 
@@ -177,5 +253,8 @@ Example JSON structure:
 - Check for any manual edits that might have broken the format
 - The JSON directly mirrors the improved prompt structure
 
-
-
+### "Sequential Thinking MCP not working"
+- Check if it shows in the 🔌 tools menu
+- Verify your config file syntax is correct
+- Restart Claude Desktop after configuration changes
+- System works fine without it (just notes it's unavailable)
