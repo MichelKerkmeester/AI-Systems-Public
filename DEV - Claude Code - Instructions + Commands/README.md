@@ -2,6 +2,9 @@
 
 Transform your development workflow with intelligent commands and automated validation for Webflow projects.
 
+> [!NOTE]  
+> While this system is optimized for a **Webflow + Slater** workflow, its principles and commands can be easily adapted for any other development environment or use case.
+
 .
 
 ## 🚀 Quick Install via Claude Code Chat
