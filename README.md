@@ -39,6 +39,8 @@ Create tickets from any request with clear specs, acceptance criteria, and conte
 **How it works**: Quick, Standard, Complex, or Epic modes  
 **You'll use this for**: Feature requests, bug reports, any dev communication  
 
+.
+
 ### DEV - Claude Code - Instructions + Commands
 Transform your Claude conversations into persistent, automated development workflows with custom commands and maintained context.
 
@@ -47,6 +49,8 @@ Transform your Claude conversations into persistent, automated development workf
 **How it works**: Project-specific instructions + custom slash commands + persistent context files
 **You'll use this for**: Consistent dev workflows, automated code reviews, complex multi-step tasks
 
+.
+
 ### DEV - IDE System Prompt
 Rules for in your IDE of choice for Webflow development with built-in validation and MCP tool integrations.
 
@@ -54,6 +58,8 @@ Rules for in your IDE of choice for Webflow development with built-in validation
 **What I built**: Elite patterns with MCP tool integrations  
 **How it works**: Systematic reasoning, validation, best practices  
 **You'll use this for**: Production Webflow/Slater development  
+
+.
 
 ### DEV - Claude App Builder
 Zero to working App prototype in one conversation.
