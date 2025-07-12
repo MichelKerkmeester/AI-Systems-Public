@@ -7,6 +7,10 @@ Transform your development workflow with intelligent commands and automated vali
 ## 🚀 Quick Install via Claude Code Chat
 
 The easiest way to install is through Claude Code itself. Simply paste this request:
+```
+Please install the Claude Code System from:
+https://github.com/MichelKerkmeester/AI-Systems-Public/tree/main/DEV%20-%20Claude%20Code%20-%20Instructions%20%2B%20Commands
+```
 
 Claude will automatically:
 - ✅ Backup existing configuration
