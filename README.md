@@ -1,6 +1,6 @@
 # AI Systems Public ✨
 
-I built these systems for my own use, but I'm sharing them in the hope that they're useful to you too.
+I built these systems for my own use, maybe they're useful to you too.
 
 .
 
