@@ -1,13 +1,13 @@
 # AI Systems Public ✨
 
-I built these systems because I needed them, maybe you need them too.
+I built these systems for my own use, but I'm sharing them in the hope that they're useful to you too.
 
 .
 
 ## 📝 Writing Systems
 
 ### Writer - Branded Content
-Copywriting system that transforms generic marketing speak into authentic brand voice. 
+Basic copywriting system based on my own Client systems, it transforms generic marketing speak into a authentic branded voice. 
 
 **Problem I faced**: Marketing copy that made readers roll their eyes  
 **What I built**: Sarah's strategic voice system with data-driven creativity  
