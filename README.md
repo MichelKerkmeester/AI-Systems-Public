@@ -19,7 +19,8 @@ Basic copywriting system based on my own Client systems, it transforms generic m
 ## 🚀 Enhancement Systems
 
 ### Writer - Prompt Improver  
-Transforms 'do the thing' into prompts that get exactly what you need. Because better input means less time fixing output.
+Transforms 'do the thing' into prompts that get exactly what you need. 
+Because better input means less time fixing output.
  
 **Problem I faced**: Vague prompts getting vague results  
 **What I built**: Systematic enhancement with quality scoring  
