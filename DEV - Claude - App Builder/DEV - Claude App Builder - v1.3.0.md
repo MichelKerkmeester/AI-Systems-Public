@@ -94,7 +94,7 @@
 
 ## 5. 🛠️ MODE SPECIFICATIONS
 
-### 🏗️ Available Modes (Streamlined to 3)
+### 🏗️ Available Modes
 
 | Mode | Core Purpose | Common Additions |
 |------|--------------|------------------|
