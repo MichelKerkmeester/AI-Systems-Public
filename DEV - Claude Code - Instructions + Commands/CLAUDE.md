@@ -34,109 +34,133 @@
 ### 🖥️ DEVELOPMENT ENVIRONMENT
 - **IDE** for JavaScript development and CSS development
 - **Slater** for code hosting and deployment
-- **Webflow Designer** for visual development (not your domain)
+- **Webflow Designer** for visual structure (DON'T MODIFY)
 
-### 📦 Platform-Specific Rules
-**Webflow:**
-- Use vanilla ES6+ exclusively
-- Target `.w-dyn-item` for Collection Lists
-- Add custom data attributes for JavaScript hooks
-- Re-attach animations after CMS re-render
-- Check forums via web_search for platform issues
+### 📁 FILE MANAGEMENT
+1. **.claude/docs/PLANNING.md** → Project strategy & context
+2. **.claude/docs/TASK.md** → Current task & progress
+> Note: Production files are in `.claude/docs/`, templates in `.claude/templates/`
 
-**Slater:**
-- Slater autoloads (no DOMContentLoaded needed)
-- Use Webflow.push() for Webflow-dependent features
-- Organize code into clearly separated modules
+### 📝 Template Usage
+- **Reference templates** in `.claude/templates/` for proper format and structure
+- **PLANNING.md template** → Shows ideal project documentation format
+- **TASK.md template** → Shows task tracking structure
+- Templates are read-only references, never modify them directly
 
 ---
 
 ## 3. ⚡ WORKFLOW & RECOVERY
 
-### Development Workflow
-1. **Select** - `/workflow` asks what code feature you need
-2. **Execute** - Three core phases:
-   - **Explore** - Analyze code and Webflow elements (check PLANNING.md first)
-   - **Plan** - Design code architecture (JS & CSS)
-   - **Code** - Build modules, styles, and enhancements (update TASK.md)
+### DEVELOPMENT WORKFLOW
+1. **ASK FIRST** → Clarify requirements
+2. **EXPLORE** → `/workflow explore` to understand constraints
+3. **PLAN** → `/workflow plan` to design approach
+4. **CODE** → `/workflow code` to implement
+5. **VALIDATE** → `/check quick` before deployment
 
-### Recovery Protocol (When Things Break)
-1. **STOP** - Don't continue with broken code
-2. **IDENTIFY** - Root cause in JavaScript
-3. **FIX** - Debug and resolve issue
-4. **VERIFY** - Check console and functionality
-5. **CONTINUE** - Resume development
-6. **DOCUMENT** - Add learnings to PLANNING.md
+### 🔧 RECOVERY PROTOCOL
+When stuck (10+ minutes without progress):
+```javascript
+Promise.all([
+  invoke('code-reasoning', {task: 'debug current issue'}),
+  invoke('context7', {library: 'relevant-library'}),
+  invoke('web_search', {query: 'webflow specific-issue 2025'}),
+  invoke('sequential-thinking', {task: 'alternative approaches'})
+]);
+```
+→ Define problem → List assumptions → Test smallest case → Iterate
 
----
-
-## 4. 📍 COMMANDS
-
-**Development Commands:**
-- `/workflow` - JavaScript & CSS development workflow (3 phases)
-- `/mcp` - MCP tool decision tree
-
-**Reference & Validation:**
-- `/validate` - Test the complete Webflow site
-- `/check` - Best practices review and technical limitations
-
-**Documentation:**
-- `/pr` - Generate code documentation
+### WEBFLOW LIMITS
+- **CMS**: 10,000 items, 30 fields
+- **Assets**: 30MB/file, 4GB total
+- **Pages**: 500 static, 10,000 CMS
+- **Scripts**: < 10KB inline
 
 ---
 
-## 5. 📋 CONTEXT & FILE MANAGEMENT
+## 4. 📋 COMMANDS
 
-### At Start of New Conversation:
-1. **Always read `PLANNING.md`** to understand:
-   - Project architecture
-   - Development goals
-   - Code style guidelines
-   - Technical constraints
-   - Existing patterns
+### Command Reference
+| Command | Options/Modes | Purpose | When to Use |
+|---------|---------------|---------|------------|
+| **`/workflow`** | `explore` \| `plan` \| `code` | Development workflow phases | **explore**: analyze constraints, **plan**: design architecture, **code**: implementation |
+| **`/check`** | `quick` \| `full` \| `[area]` \| `fix` | Code validation & fixes | **quick**: 5-min scan, **full**: comprehensive, **area**: specific (seo/a11y), **fix**: generate solutions |
+| **`/validate`** | `manual` \| `puppeteer` \| `lighthouse` \| `checklist` | Testing frameworks | **manual**: human testing, **puppeteer**: automation, **lighthouse**: performance, **checklist**: QA docs |
+| **`/mcp`** | - | MCP tool decision tree | Choosing which tools to use |
+| **`/pr`** | - | Documentation best practices | Creating/updating docs |
 
-### Before Starting Any Task:
-1. **Check `TASK.md`** for existing tasks
-2. If task isn't listed, add it with:
-   - Brief description
-   - Today's date
-   - Priority level
-3. **Mark completed tasks** immediately after finishing
+### Context Management
+| Action | File to Update | When |
+|--------|----------------|------|
+| **Start task** | `.claude/docs/TASK.md` | Beginning new work |
+| **Complex feature** | `.claude/docs/PLANNING.md` | Multi-phase projects |
+| **Switch context** | Respective .md file | Changing focus |
 
-### During Development:
-1. Add discovered sub-tasks to `TASK.md` under "Discovered During Work" section
-2. Update `PLANNING.md` if architectural decisions change
-3. Document non-obvious code with `# Reason:` comments
+---
 
-### File References:
-- **PLANNING.md** - Architecture, goals, style, constraints
-- **TASK.md** - Task tracking and progress
-- Type `#` to save learnings to appropriate file
+## 5. 📂 CONTEXT & FILE MANAGEMENT
+
+1. **Always check .claude/docs/PLANNING.md and .claude/docs/TASK.md** at conversation start
+2. **Update documentation** as you work
+3. **Link related files** in comments
+4. **Commit messages** describe WHY, not WHAT
 
 ---
 
 ## 6. 🔌 MCP TOOLS USAGE
 
-### Efficiency Principle
-**Use parallel subagents for maximum efficiency** - When exploring multiple independent aspects, invoke all relevant tools simultaneously rather than sequentially.
+### Parallel Subagent Approach
+```javascript
+// ALWAYS run independent queries simultaneously
+Promise.all([
+  // Performance analysis
+  invoke('code-reasoning', {
+    task: 'analyze render performance',
+    context: 'Webflow collection list with 50 items'
+  }),
+  
+  // Library documentation
+  invoke('context7', {
+    library: 'gsap',
+    topic: 'timeline optimization'
+  }),
+  
+  // Current best practices
+  invoke('web_search', {
+    query: 'webflow collection list performance 2025'
+  }),
+  
+  // Alternative approaches
+  invoke('sequential-thinking', {
+    task: 'design pattern alternatives',
+    constraints: 'no DOM modification'
+  })
+]);
+```
 
-### Available Tools:
-- **code-reasoning**: Code analysis, debugging, architecture review
-- **sequential-thinking**: Planning, strategy, non-code problem solving
-- **context7**: Library docs (GSAP, Swiper, Motion)
-- **web_search/tavily/brave**: Webflow forums, current info, documentation
-- **Webflow MCP server** (when available): Direct API integration
-
-Use `/mcp` for detailed decision tree
+### Tool Selection Matrix
+| Scenario | Tools | Why |
+|----------|-------|-----|
+| Animation Performance | CR + C7 + WS | Math + Docs + Current |
+| Webflow Limits | WS + CR | Forums + Workarounds |
+| Complex Logic | CR + ST | Algorithm + Strategy |
+| Library Usage | C7 + WS | Docs + Examples |
 
 ---
 
 ## 7. 📚 LIBRARIES
-- **Animation hierarchy**: 
-  - CSS transitions (Simple) → Motion.dev (Default) → GSAP (Complex)
-- **Motion.dev**: Modern, lightweight, hardware-accelerated animations
-- **GSAP**: Complex timelines, morphing, deep Webflow integration
+
+### Animation Hierarchy
+1. **CSS transitions** → Simple state changes
+2. **Motion.dev (Default)** → Advanced animations
+3. **GSAP (Complex only)** → Timeline control
+
+### Preferred Stack
 - **Sliders**: Swiper.js
 - **Forms**: Formly
 - **Video**: Flowplay
 - **Utilities**: Finsweet
+
+---
+
+**Remember**: You enhance Webflow, never replace it. When the platform says no, find creative ways to say yes within constraints.

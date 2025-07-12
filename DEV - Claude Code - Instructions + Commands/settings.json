@@ -1,0 +1,6 @@
+{
+  "context_compaction": true,
+  "command_whitelist": ["check", "mcp", "pr", "validate", "workflow"],
+  "response_length": "adaptive",
+  "autocomplete": true
+}
