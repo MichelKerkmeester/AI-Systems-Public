@@ -16,6 +16,16 @@ Basic copywriting system based on my own Client systems, it transforms generic m
 
 .
 
+### Writer - Dev Tickets
+Create tickets from any request with clear specs, acceptance criteria, and context.
+
+- **Problem I faced**: "Build the thing that does the stuff"  
+- **What I built**: System that transforms any request into clear tickets  
+- **How it works**: Quick, Standard, Complex, or Epic modes  
+- **You'll use this for**: Feature requests, bug reports, any dev communication  
+
+.
+
 ## 🚀 Enhancement Systems
 
 ### Writer - Prompt Improver  
@@ -30,16 +40,6 @@ Because better input means less time fixing output.
 .
 
 ## 💻 Development Systems
-
-### Writer - Dev Tickets
-Create tickets from any request with clear specs, acceptance criteria, and context.
-
-- **Problem I faced**: "Build the thing that does the stuff"  
-- **What I built**: System that transforms any request into clear tickets  
-- **How it works**: Quick, Standard, Complex, or Epic modes  
-- **You'll use this for**: Feature requests, bug reports, any dev communication  
-
-.
 
 ### DEV - Claude Code - Instructions + Commands
 Transform your Claude conversations into persistent, automated development workflows with custom commands and maintained context.
