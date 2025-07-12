@@ -2,17 +2,15 @@
 
 ## 🎯 What is This?
 
+> [!NOTE]  
+> While this system is optimized for a **Webflow + Slater** workflow, its principles can be easily adapted for any other development environment or use case.
+
 A comprehensive set of IDE rules that transforms AI assistants into elite software engineers who:
 - Fix root causes, not symptoms
 - Deliver production-grade code with zero technical debt
 - Optimize performance relentlessly
 - Follow modern web development best practices
 - **NEW:** Leverage MCP (Model Context Protocol) tools for enhanced reasoning and documentation
-
-**Perfect for:** Webflow developers, frontend engineers, and anyone building performant web applications.
-
-> [!NOTE]  
-> While this system is optimized for a **Webflow + Slater** workflow, its principles can be easily adapted for any other development environment or use case.
 
 .
 
