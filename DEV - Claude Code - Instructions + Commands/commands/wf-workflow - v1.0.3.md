@@ -84,7 +84,7 @@ Analyze existing code and Webflow integration points.
 - ✅ Identify existing Webflow structure (don't plan to modify)
 - ✅ Note available classes and data attributes
 - ❌ Flag any elements that would require DOM changes
-- 📖 See FORBIDDEN PATTERNS in main system instructions
+- 📖 See TECHNICAL EXECUTION & CONSTRAINTS in main system instructions
 
 ### Output example:
 ```
@@ -121,7 +121,7 @@ Design JavaScript architecture for existing Webflow elements.
 - Confirm no pixel units in CSS plans
 - Check for Webflow.push() usage for dependent features
 - Ensure no global namespace pollution
-- 📖 Cross-check with FORBIDDEN PATTERNS
+- 📖 Cross-check with TECHNICAL EXECUTION & CONSTRAINTS
 
 ### 🏎️ Efficiency Principle:
 If there are things you are not sure about, use parallel subagents to do web research simultaneously. Multiple independent research queries should be executed in parallel for maximum efficiency.
@@ -174,7 +174,7 @@ Write JavaScript and CSS that enhances existing Webflow elements. Follow the sty
 - [ ] Using REM units, not pixels
 - [ ] Using document.querySelector with existence checks
 - [ ] Respecting reduced motion preferences
-- [ ] 📖 Final review against FORBIDDEN PATTERNS
+- [ ] 📖 Final review against TECHNICAL EXECUTION & CONSTRAINTS
 
 ### Technical Execution Approach:
 
